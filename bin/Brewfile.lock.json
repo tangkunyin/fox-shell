@@ -1,0 +1,3291 @@
+{
+  "entries": {
+    "tap": {
+      "eddieantonio/eddieantonio": {
+        "revision": "9b3d92deefc06954ef41979b656876b70bdd2343"
+      },
+      "homebrew/bundle": {
+        "revision": "36e0f7a5df44761ccf1901877aaf4ed3a2ff8c06"
+      },
+      "homebrew/cask": {
+        "revision": "ed1d0086b28dfc5aa27fa535b03833d77ddc8c50"
+      },
+      "homebrew/core": {
+        "revision": "2bb93b970fc848684d530a8944751b5e93fdb7ed",
+        "options": {
+          "clone_target": "..."
+        }
+      },
+      "homebrew/services": {
+        "revision": "db2a6203fd4ae47ac5c150d03cb515e615b9cbe6"
+      },
+      "mongodb/brew": {
+        "revision": "79751dd7c57fb6b01019c49b38eecd612a90fa86"
+      }
+    },
+    "brew": {
+      "giflib": {
+        "version": "5.2.1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/giflib-5.2.1.arm64_monterey.bottle.tar.gz",
+              "sha256": "6a1194d7b2d991583e3b5d46782ac8d0cecfc35bc28a5b4daf86ec4311cc7cdc"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/giflib-5.2.1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "e9a78b55a43f68f2552f845fff27d1c247ed865b1dd653f4c8ab259594411f86"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/giflib-5.2.1.monterey.bottle.tar.gz",
+              "sha256": "fa6adb4afc1abd76f8a80afd8c25572f7c990cbfc88a43496350e8c363048217"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/giflib-5.2.1.big_sur.bottle.tar.gz",
+              "sha256": "dc23500f50d599c4dbfcea0107b643bef41538c2f5fd162b049f82d21e3d32d5"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/giflib-5.2.1.catalina.bottle.tar.gz",
+              "sha256": "ad97d175fa77f7afb4a1c215538d8ae9eff30435de7feaa6a5d2e29fca7fef4d"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/giflib-5.2.1.mojave.bottle.tar.gz",
+              "sha256": "42d2f8a6e9dbf9d4c22a2e64581c7170cc7dcb2a0e66df383efc67b7bc96238d"
+            },
+            "high_sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/giflib-5.2.1.high_sierra.bottle.tar.gz",
+              "sha256": "e1a30a20ad93cd9ec003027d7fba43a7e04ced0bff4156614818cccfc9dec6c9"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/giflib-5.2.1.x86_64_linux.bottle.tar.gz",
+              "sha256": "d753208ed3a4bbd60b59e3ca4466196e4b935d4f434935b540fc6bfb5f3e0385"
+            }
+          }
+        }
+      },
+      "imath": {
+        "version": "3.1.4",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/imath-3.1.4.arm64_monterey.bottle.tar.gz",
+              "sha256": "a062f442cb1477e1191f7c8bc5c679dd58add7b49dee162e1c7aaa84ee2fc0de"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/imath-3.1.4.arm64_big_sur.bottle.tar.gz",
+              "sha256": "990f0df58bc099fee22bc9fbe53e5384e8f5c347840ce59b6c67c50858ca6a8b"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/imath-3.1.4.monterey.bottle.tar.gz",
+              "sha256": "f76322bb6521326e7931313779021735b64d4964e32db9ac645ecbb567b74f8a"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/imath-3.1.4.big_sur.bottle.tar.gz",
+              "sha256": "9415df9168a38e49695164c6469baf4942a54e88da0d001757d0fc9f55aed9ea"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/imath-3.1.4.catalina.bottle.tar.gz",
+              "sha256": "9c18609d792b0969753cfaefe7418ae37d120dff1aaad1da57dd1e2bc8bdf16d"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/imath-3.1.4.x86_64_linux.bottle.tar.gz",
+              "sha256": "1eec5fa234963e53dfbdf32d814165927323ea98d266993e754e75c7d009d314"
+            }
+          }
+        }
+      },
+      "jpeg": {
+        "version": "9e",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/jpeg-9e.arm64_monterey.bottle.tar.gz",
+              "sha256": "5d4520a90181dd83b3f58b580cd3b952cacf7f7aa035d5fd7fddd98c1e6210d1"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/jpeg-9e.arm64_big_sur.bottle.tar.gz",
+              "sha256": "27409eb75ac182025c27b4aa9c2290c40feec924cbe9edc095c754120c87bdf4"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/jpeg-9e.monterey.bottle.tar.gz",
+              "sha256": "208af924cc7a42f53ab8ce50084eb76faadc3c1942e842484acbb2e74a54465c"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/jpeg-9e.big_sur.bottle.tar.gz",
+              "sha256": "085e31212006e6afefc6e5141a02a06cb5bdebdbc8ca5edba50de0d95dd495fc"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/jpeg-9e.catalina.bottle.tar.gz",
+              "sha256": "4c19f39c827ee7cdbc0f770b56c8ce553e94a5090e58da7eac3e2596b9408612"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/jpeg-9e.x86_64_linux.bottle.tar.gz",
+              "sha256": "5b15c19b1cfdee81b6c3ebb96b1a743157da600030f943c9e18cbbda0612924a"
+            }
+          }
+        }
+      },
+      "libpng": {
+        "version": "1.6.37",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libpng-1.6.37.arm64_monterey.bottle.tar.gz",
+              "sha256": "40b9dd222c45fb7e2ae3d5c702a4529aedf8c9848a5b6420cb951e72d3ad3919"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libpng-1.6.37.arm64_big_sur.bottle.tar.gz",
+              "sha256": "766a7136ee626b411fb63da0c7e5bc1e848afb6e224622f25ea305b2d1a4a0f1"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libpng-1.6.37.monterey.bottle.tar.gz",
+              "sha256": "7209cfe63b2e8fdbd9615221d78201bfac44405f5206f7b08867bcd0c6046757"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libpng-1.6.37.big_sur.bottle.tar.gz",
+              "sha256": "a8f1c35f9f004c4f7878c30027e35a9fb9551782df963f88deebd3dc29d94d51"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libpng-1.6.37.catalina.bottle.tar.gz",
+              "sha256": "c8e74da602c21f978cd7ee3d489979b4fc6681e71f678a1d99012943ee3a909f"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libpng-1.6.37.mojave.bottle.tar.gz",
+              "sha256": "53bbd14cc27c86c16605e256e7646a1b5656c253abca084958c5d80a2961cb01"
+            },
+            "high_sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libpng-1.6.37.high_sierra.bottle.tar.gz",
+              "sha256": "bbdd94bdd5954bc50c096391486e67265dce5631efb913dcffe4469806a242b6"
+            },
+            "sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libpng-1.6.37.sierra.bottle.tar.gz",
+              "sha256": "e66797079a9a8134f91bd36b58054c6c32f6a9cd161c1bd19f0192319edb80aa"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libpng-1.6.37.x86_64_linux.bottle.tar.gz",
+              "sha256": "aeb238f8b62e3e8923a032caf88152e287a4435ab4afd663fa98b4a57495d116"
+            }
+          }
+        }
+      },
+      "autojump": {
+        "version": "22.5.3_3",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/autojump-22.5.3_3.arm64_monterey.bottle.tar.gz",
+              "sha256": "fd70efcdedc3195f8f1a1bdc92d24fd8077e26c848c453de5e3eef2b92f5c8c4"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/autojump-22.5.3_3.arm64_big_sur.bottle.tar.gz",
+              "sha256": "fd70efcdedc3195f8f1a1bdc92d24fd8077e26c848c453de5e3eef2b92f5c8c4"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/autojump-22.5.3_3.monterey.bottle.tar.gz",
+              "sha256": "25469a543ea749b071f258a046449bbbc5ee24630ecc9c3eee91cc26af0cee8a"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/autojump-22.5.3_3.big_sur.bottle.tar.gz",
+              "sha256": "25469a543ea749b071f258a046449bbbc5ee24630ecc9c3eee91cc26af0cee8a"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/autojump-22.5.3_3.catalina.bottle.tar.gz",
+              "sha256": "25469a543ea749b071f258a046449bbbc5ee24630ecc9c3eee91cc26af0cee8a"
+            },
+            "mojave": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/autojump-22.5.3_3.mojave.bottle.tar.gz",
+              "sha256": "25469a543ea749b071f258a046449bbbc5ee24630ecc9c3eee91cc26af0cee8a"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/autojump-22.5.3_3.x86_64_linux.bottle.tar.gz",
+              "sha256": "fd70efcdedc3195f8f1a1bdc92d24fd8077e26c848c453de5e3eef2b92f5c8c4"
+            }
+          }
+        }
+      },
+      "blueutil": {
+        "version": "2.9.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/blueutil-2.9.0.arm64_monterey.bottle.tar.gz",
+              "sha256": "adcb4a19c564cbd895f7e216df0a3293e17a009b243f5710edb9ba60965231db"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/blueutil-2.9.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "e29ddccdf7253406a3685f4099f3424ffb6d399ff2643f2d79f281ad97b93a67"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/blueutil-2.9.0.monterey.bottle.tar.gz",
+              "sha256": "bdcffcaabd1270881f5b28da53aa1a6a28b93cbeb134d2b08891861653364b92"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/blueutil-2.9.0.big_sur.bottle.tar.gz",
+              "sha256": "429703e2bae1445d2a6ae2e1f52ed2c1f0bad3a94e80b44bfe36e698ba5ded30"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/blueutil-2.9.0.catalina.bottle.tar.gz",
+              "sha256": "3717d1a6753d4d94c4b4cbc92afa8ce58ed02bc1435806646fba4c7c1d04787a"
+            },
+            "mojave": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/blueutil-2.9.0.mojave.bottle.tar.gz",
+              "sha256": "389cd2270eededef8623fda47663f998cca159b82f17ef030962ac7dbae3522b"
+            }
+          }
+        }
+      },
+      "c-ares": {
+        "version": "1.18.1_1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/c-ares-1.18.1_1.arm64_monterey.bottle.tar.gz",
+              "sha256": "a5818fef12f8028c1ee36d9df5213a74b8e3f33b08889043908bc59364cc29b5"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/c-ares-1.18.1_1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "2a3a10365f123633607a3569a8cb31afeac814229e17d975c95be5139f33fed5"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/c-ares-1.18.1_1.monterey.bottle.tar.gz",
+              "sha256": "62b9590a3b9d30d2db8696da78948fb79a26c139536c3820c4275327fd808559"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/c-ares-1.18.1_1.big_sur.bottle.tar.gz",
+              "sha256": "e276dddce0e43aba6e8f39b26be811294ae36cb7c45e203ff656bb52fa30242c"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/c-ares-1.18.1_1.catalina.bottle.tar.gz",
+              "sha256": "3d1c10f0de6c0847e972f67e7e6021fde7ccc1f58dc5497182ae7af80bb127f0"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/c-ares-1.18.1_1.x86_64_linux.bottle.tar.gz",
+              "sha256": "7b66f4b75a81bd37ad1eebefc4a59e4ac41eb8d2d0f2b47f56a661366193dffc"
+            }
+          }
+        }
+      },
+      "libffi": {
+        "version": "3.4.2",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libffi-3.4.2.arm64_monterey.bottle.tar.gz",
+              "sha256": "6a3605cff713d45e0500ef01c0f082d1b4d31d70cd2400b5856443050a44a056"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libffi-3.4.2.arm64_big_sur.bottle.tar.gz",
+              "sha256": "2166e9d5178197a84ec721b40e22d8c42e30bd0c4808bd38b1ca768eb03f62a5"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libffi-3.4.2.monterey.bottle.tar.gz",
+              "sha256": "d2cee9b7c8158cf7164fc58c4c5054e38898caefd5f902d36996e1c362d936bc"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libffi-3.4.2.big_sur.bottle.tar.gz",
+              "sha256": "a461f6ad21a23a725691385dbbec3eff958cf61d5282e84dc3f0483e307e1875"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libffi-3.4.2.catalina.bottle.tar.gz",
+              "sha256": "6dbeaf8209b24c0963a5c87cd99d68f8bf61ea532c1c55bec8467a621b64da1b"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libffi-3.4.2.mojave.bottle.tar.gz",
+              "sha256": "ebd8f12d294d0194f4bfd158cc20b454ff97c02def465cb4cd69eea621665033"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libffi-3.4.2.x86_64_linux.bottle.tar.gz",
+              "sha256": "48e34a380ab065bda9191298bd3eefc895f1c2315d508cb83614eac01cf38301"
+            }
+          }
+        }
+      },
+      "pkg-config": {
+        "version": "0.29.2_3",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pkg-config-0.29.2_3.arm64_monterey.bottle.tar.gz",
+              "sha256": "2af9bceb60b70a259f236f1d46d2bb24c4d0a4af8cd63d974dde4d76313711e0"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pkg-config-0.29.2_3.arm64_big_sur.bottle.tar.gz",
+              "sha256": "ffd4491f62201d14b7eca6beff954a2ab265351589cd5b3b79b8bbb414485574"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pkg-config-0.29.2_3.monterey.bottle.tar.gz",
+              "sha256": "a6ba80711f98b65d8a2bf2c9278540860415e9b5e545da338a4d94f39d119285"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pkg-config-0.29.2_3.big_sur.bottle.tar.gz",
+              "sha256": "0040b6ebe07f60549800b211343fd5fb3cf83c866d9f62e40f5fb2f38b71e161"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pkg-config-0.29.2_3.catalina.bottle.tar.gz",
+              "sha256": "80f141e695f73bd058fd82e9f539dc67471666ff6800c5e280b5af7d3050f435"
+            },
+            "mojave": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pkg-config-0.29.2_3.mojave.bottle.tar.gz",
+              "sha256": "0d14b797dba0e0ab595c9afba8ab7ef9c901b60b4f806b36580ef95ebb370232"
+            },
+            "high_sierra": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pkg-config-0.29.2_3.high_sierra.bottle.tar.gz",
+              "sha256": "8c6160305abd948b8cf3e0d5c6bb0df192fa765bbb9535dda0b573cb60abbe52"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pkg-config-0.29.2_3.x86_64_linux.bottle.tar.gz",
+              "sha256": "3d9b8bf9b7b4bd08086be1104e3e18afb1c437dfaca03e6e7df8f2710b9c1c1a"
+            }
+          }
+        }
+      },
+      "lzo": {
+        "version": "2.10",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzo-2.10.arm64_monterey.bottle.tar.gz",
+              "sha256": "e16072e8ef7a8810284ccea232a7333a2b620367814b133a455217d22e89ae8e"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzo-2.10.arm64_big_sur.bottle.tar.gz",
+              "sha256": "76d0933f626d8a1645b559b1709396a2a6fd57dbd556d2f1f1848b5fddfcd327"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzo-2.10.monterey.bottle.tar.gz",
+              "sha256": "0a20a578e6a31ebbe3c5d708af38b1c3ca5ba503612ed28a197cd326505d31dd"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzo-2.10.big_sur.bottle.tar.gz",
+              "sha256": "fcd3c9f7042104ca13be96fd0ec53acdc7da1480c16140441b2e66d4e7c5eb78"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzo-2.10.catalina.bottle.tar.gz",
+              "sha256": "c8f55ba0de85273c1851136f47b89f43ba3cce9cbf0ba9f2bba7db311544a000"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzo-2.10.mojave.bottle.tar.gz",
+              "sha256": "84f4e3223c03375b0be93bd87be98f512e092621b4f6b4216e3da7210c56ddad"
+            },
+            "high_sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzo-2.10.high_sierra.bottle.tar.gz",
+              "sha256": "2420aac02d4765ecfd5e9b4d05402f42416c438e8bbaa43dca19e03ecff2a670"
+            },
+            "sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzo-2.10.sierra.bottle.tar.gz",
+              "sha256": "26969f416ec79374e074f8434d6b7eece891fcbc8bee386e9bbd6d418149bc52"
+            },
+            "el_capitan": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzo-2.10.el_capitan.bottle.tar.gz",
+              "sha256": "77abd933fd899707c99b88731a743d5289cc6826bd4ff854a30e088fbbc61222"
+            },
+            "yosemite": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzo-2.10.yosemite.bottle.tar.gz",
+              "sha256": "0c3824de467014932ebdb3a2915a114de95036d7661c4d09df0c0191c9149e22"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzo-2.10.x86_64_linux.bottle.tar.gz",
+              "sha256": "8413f94bb69f337f7e1837e7f525e703cac105d27ceeb29de5c08c7bbfa77b29"
+            }
+          }
+        }
+      },
+      "cairo": {
+        "version": "1.16.0_5",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cairo-1.16.0_5.arm64_monterey.bottle.tar.gz",
+              "sha256": "50feaae83e93330cc0ee6b90477cfa931fab52cdb98ad37a99a0e518da6a580e"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cairo-1.16.0_5.arm64_big_sur.bottle.tar.gz",
+              "sha256": "2fc4da6029167f696fc0b3c0553d36abb8e77c75f0096396d4eb89d0ea912612"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cairo-1.16.0_5.monterey.bottle.tar.gz",
+              "sha256": "ccf4f80f5115aad260e4d3f014dc0aebdd616dfac88f567d211bd8681d60c3a9"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cairo-1.16.0_5.big_sur.bottle.tar.gz",
+              "sha256": "cb16c1bb070a7cdca7aaf8899a70e407d73636116d62225626b2c8d31aa8d2ff"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cairo-1.16.0_5.catalina.bottle.tar.gz",
+              "sha256": "4a117545953b9784f78db8261c03d71a1ae7af836dcd995abe7e6d710cdfd39c"
+            },
+            "mojave": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cairo-1.16.0_5.mojave.bottle.tar.gz",
+              "sha256": "38c7b7b0f6266632a5f04df12180dc36a1ce218a1c54b13cdca18ad024067311"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cairo-1.16.0_5.x86_64_linux.bottle.tar.gz",
+              "sha256": "678c795a11134b3455002969fc41b8e2512e97cdaa084f792724ace7549a3407"
+            }
+          }
+        }
+      },
+      "carthage": {
+        "version": "0.38.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/carthage-0.38.0.arm64_monterey.bottle.tar.gz",
+              "sha256": "31e066eb80819a224b4b98b2c5cb9f11989c787e8de7cc0b4c492663fd0e7075"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/carthage-0.38.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "e9be26e66087b149d4d6ff813323fb5fa1ac0ec1a55d3d1a26fc3aafc8f8e8ec"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/carthage-0.38.0.monterey.bottle.tar.gz",
+              "sha256": "17481cd77a643af4799e2c603ae808cd09a6487e73638caab0af8cdeffc2c438"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/carthage-0.38.0.big_sur.bottle.tar.gz",
+              "sha256": "863d4165b65d4a914f0585ca68a2ae15a179d663dbd29e6fd1d0a0ec769b97c3"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/carthage-0.38.0.catalina.bottle.tar.gz",
+              "sha256": "ea1df2bc55049416020811e5c995a28a3d6a0d26ef4bbe67bc9b248a11727e96"
+            },
+            "mojave": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/carthage-0.38.0.mojave.bottle.tar.gz",
+              "sha256": "417d7a04952ad1845e88f8699a508e5fee109f9f903433eb7c4c860738b7843e"
+            }
+          }
+        }
+      },
+      "certbot": {
+        "version": "1.25.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/certbot-1.25.0.arm64_monterey.bottle.tar.gz",
+              "sha256": "ca35087452e8ea641ca77934682822e8065bba0db40e2e4895e3181eefa95d9a"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/certbot-1.25.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "c4f2f72d179ff2d1ae378e300cfdf099eff64d589e347590a1ca02a2634a8a13"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/certbot-1.25.0.monterey.bottle.tar.gz",
+              "sha256": "a51e56469d25cef7876d1f7270f6ecaf32b5e052d0a678d26569de72707bd377"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/certbot-1.25.0.big_sur.bottle.tar.gz",
+              "sha256": "fd3c5cf892ee356d24f43b3f161c2e36e11f6146cd0cdbb75baa2c8702884a8a"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/certbot-1.25.0.catalina.bottle.tar.gz",
+              "sha256": "acf0d4111880ef6a0579589ad5b637dfc62c6f2f8b89863894c652c53bca842d"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/certbot-1.25.0.x86_64_linux.bottle.tar.gz",
+              "sha256": "dc8a7621329820bcb196dfadabae078b7c3c0adfcffa4ebf8e746d608a868acc"
+            }
+          }
+        }
+      },
+      "cloc": {
+        "version": "1.92",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cloc-1.92.arm64_monterey.bottle.tar.gz",
+              "sha256": "0efc12ede2a34d0f3861223327a7e1ea559e401e567969e50d84d825cc3c90b9"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cloc-1.92.arm64_big_sur.bottle.tar.gz",
+              "sha256": "05ea934d7a6ce536bbb928c9cd9a5d9ba27bc09109da8edf5ce39c39fdc71d82"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cloc-1.92.monterey.bottle.tar.gz",
+              "sha256": "3e7b13dcfa8cfa88ac066471984c7966768f104085fd3384ee4948f481a1108d"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cloc-1.92.big_sur.bottle.tar.gz",
+              "sha256": "79233c01f28f7f76b4e763c2f4301297502b47b77e8f39fea10f18576d12cc62"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cloc-1.92.catalina.bottle.tar.gz",
+              "sha256": "c66fde2a289083b2e121817f17f5b75769f638a4b90c0b49a3e0fc89cec9e655"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cloc-1.92.x86_64_linux.bottle.tar.gz",
+              "sha256": "879b082292c2ca231e4146d94867f121006494ae5331a6aee8b0f531d63918a3"
+            }
+          }
+        }
+      },
+      "cmake": {
+        "version": "3.22.3",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cmake-3.22.3.arm64_monterey.bottle.tar.gz",
+              "sha256": "94988c6bbc00c7a19a32d0b926dfb4c945c3ab975dfd0c4116811d25c92cda51"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cmake-3.22.3.arm64_big_sur.bottle.tar.gz",
+              "sha256": "4b10cbe4e3244b0746b9df005225244ed8572d954b302a51d363b3312ae76ec4"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cmake-3.22.3.monterey.bottle.tar.gz",
+              "sha256": "090acb6a5c51b9a3b74508e7a93e30d6bcd84c55d66ba875a68fea31c696ddb7"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cmake-3.22.3.big_sur.bottle.tar.gz",
+              "sha256": "7dc87fd03f45aebc3cc70226df814cd87ce3a362af334f48c1f7f0ee5ef0f222"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cmake-3.22.3.catalina.bottle.tar.gz",
+              "sha256": "4c02a897c373424db03e17c1f3e15c88aa0581e6a7b0072eb6e650a70222f9ac"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/cmake-3.22.3.x86_64_linux.bottle.tar.gz",
+              "sha256": "5ba4b68c1eefa82fc4661ebec979b7289fe453f2504c5756ccd417d9aa3b4adb"
+            }
+          }
+        }
+      },
+      "libidn2": {
+        "version": "2.3.2",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libidn2-2.3.2.arm64_monterey.bottle.tar.gz",
+              "sha256": "fcc51d2c385b19d647da5a53f7041f13f97d2c1119a7cbbfd8433e9e55bf5012"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libidn2-2.3.2.arm64_big_sur.bottle.tar.gz",
+              "sha256": "dbaac7e6e29ffa8c7c2b5e152fd6ee0118e547f90dc4b180c7f168c2f681c5f4"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libidn2-2.3.2.monterey.bottle.tar.gz",
+              "sha256": "29b1ea810ddad662b0c766429c2384495d643baa253dc31eed0300f5d4c4d7f4"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libidn2-2.3.2.big_sur.bottle.tar.gz",
+              "sha256": "d21350f576f9b9cd0512149164622671b71854da69947183bc84e09a3a257b89"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libidn2-2.3.2.catalina.bottle.tar.gz",
+              "sha256": "71c5f183ae570f9a77eb759ab2bd04d84eb5cb9cf9c9a3b7cd8879aad5966bcd"
+            },
+            "mojave": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libidn2-2.3.2.mojave.bottle.tar.gz",
+              "sha256": "9402e3774f00c5485dd341cf34c35c24de0dc9bb90b2d4057c22e432848e0f1f"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libidn2-2.3.2.x86_64_linux.bottle.tar.gz",
+              "sha256": "57a2bf8955bcc8c2661aec2b26acfb90ec50402d78afebb000a1f6b0c27421e4"
+            }
+          }
+        }
+      },
+      "curl": {
+        "version": "7.82.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/curl-7.82.0.arm64_monterey.bottle.tar.gz",
+              "sha256": "75bfcf647a9262c5bd8bc7574f810a54c3db1ab2684fddc9be4dcfd8daf2706e"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/curl-7.82.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "63e4213d2d76076c2f54fd5e0bd79baacd56047915b08be643127cd69819abca"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/curl-7.82.0.monterey.bottle.tar.gz",
+              "sha256": "46cf555fb6503a9f0ed3fe9624098a02db9531ca76fa3ae1934d12c273b55972"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/curl-7.82.0.big_sur.bottle.tar.gz",
+              "sha256": "bcdfd8b4ce27031422d41bbbd2236ea81c1f79ddd64bb74d4bbe66755805d286"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/curl-7.82.0.catalina.bottle.tar.gz",
+              "sha256": "8c51b0b50434fe1757c6f17dcbaa34024373cb12acfb5af2851b82f671d3890f"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/curl-7.82.0.x86_64_linux.bottle.tar.gz",
+              "sha256": "13945e90fa78c5baac3a77b5daee126143c452c35e92f9b3f396ef9520aa7608"
+            }
+          }
+        }
+      },
+      "deno": {
+        "version": "1.19.3",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/deno-1.19.3.arm64_monterey.bottle.tar.gz",
+              "sha256": "a145098b41ccf1f67791754d9a49a133dd85320a3102a561d7fc190087095d07"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/deno-1.19.3.arm64_big_sur.bottle.tar.gz",
+              "sha256": "a7af2ee4acb622f9cb66c722da6195ec3d83f2ad1a3a521b917a8261e83cd048"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/deno-1.19.3.monterey.bottle.tar.gz",
+              "sha256": "8156003b085acc4c4a9886a1eed9a87504579b59846a4298e6d90963c8d7f475"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/deno-1.19.3.big_sur.bottle.tar.gz",
+              "sha256": "d564f1d906c985f7f05a78b4d9ab32e82e96bdd3d79b97e6cb3120ac4f502f30"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/deno-1.19.3.catalina.bottle.tar.gz",
+              "sha256": "3878b95df6bdc379ebb3a5c26e8f385fdfefae4e47af1797e96f253c4aa398a3"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/deno-1.19.3.x86_64_linux.bottle.tar.gz",
+              "sha256": "f6cb2886196c4604f666dfc728a0de1c1600c227665121df2883a348f6c9b7b4"
+            }
+          }
+        }
+      },
+      "dog": {
+        "version": "0.1.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/dog-0.1.0.arm64_monterey.bottle.tar.gz",
+              "sha256": "4f90bf064348fb099a5ecc0de69a6ef9cee7b45583d2cdaeb844214d5e773f17"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/dog-0.1.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "9ea5dead4f4fbe142d855e32dbb2a01a311836bdbdec746c62eb21e1c5a8b159"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/dog-0.1.0.monterey.bottle.tar.gz",
+              "sha256": "fd49c3b016a17db8514b585a226c658aa109a7e2bf96023f4a194deb7501c70a"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/dog-0.1.0.big_sur.bottle.tar.gz",
+              "sha256": "0666eb89b99b25ee0c5b2064f2a7a2781a325aded61691b707c6e93c512c652f"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/dog-0.1.0.catalina.bottle.tar.gz",
+              "sha256": "21f901c6abb536f0a7bc00d97df6e561aec1acff1759a96a5f69bd51eac1da98"
+            },
+            "mojave": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/dog-0.1.0.mojave.bottle.tar.gz",
+              "sha256": "095b6dbb23b96504a6f0e0a292a7157c78e900825e92f4c140cc29643a294e29"
+            },
+            "high_sierra": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/dog-0.1.0.high_sierra.bottle.tar.gz",
+              "sha256": "fef7ea4d925e230ba9e75cb051a888263c2bc10fcf26a96899cea2cc8891a302"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/dog-0.1.0.x86_64_linux.bottle.tar.gz",
+              "sha256": "9ab73546a4ee11f186379ac21479d7e1ce052791f2840c54a43d5ed67281e500"
+            }
+          }
+        }
+      },
+      "emojify": {
+        "version": "1.0.2",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/emojify-1.0.2.all.bottle.tar.gz",
+              "sha256": "525c599c9e16d63627d5b4afca9f43d22e456d21a8e00a05b5e4a4e2acded629"
+            }
+          }
+        }
+      },
+      "snappy": {
+        "version": "1.1.9",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/snappy-1.1.9.arm64_monterey.bottle.tar.gz",
+              "sha256": "8259999a686e6998350672e5e67425d9b5c3afaa139e14b0ad81aa6ac0b3dfa9"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/snappy-1.1.9.arm64_big_sur.bottle.tar.gz",
+              "sha256": "19b5a3afc6646dcec7a1803921b44fb5c57b6734fc0e32f025633f14d1da05ec"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/snappy-1.1.9.monterey.bottle.tar.gz",
+              "sha256": "fafb5142d8503a35d03d7db786cbcc44f6c625fefdcfa39a1024d5670c87d56c"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/snappy-1.1.9.big_sur.bottle.tar.gz",
+              "sha256": "d73fd47c36e1559d49e1c4c4346c754a9d2ff2af9a0bef25631f52763f19f0ef"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/snappy-1.1.9.catalina.bottle.tar.gz",
+              "sha256": "e62a5ab8aa407d6e7d8ddbecdc66fdd1fb256b87730dfe4abbdf8996b3db2869"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/snappy-1.1.9.mojave.bottle.tar.gz",
+              "sha256": "b5c89925c1e54ea1e1992d076836092fa754681b373b4834766236abb779cfab"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/snappy-1.1.9.x86_64_linux.bottle.tar.gz",
+              "sha256": "c6708c99972bc8ff6d2ad298cf0cd498853d73b45f9ac95a9370fc70b2c59297"
+            }
+          }
+        }
+      },
+      "libogg": {
+        "version": "1.3.5",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libogg-1.3.5.arm64_monterey.bottle.tar.gz",
+              "sha256": "119687ca3010a96ff903a55160690c62fa3864e8c23b89854b6decf4416f9762"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libogg-1.3.5.arm64_big_sur.bottle.tar.gz",
+              "sha256": "86f7182a3e7ad1a6cbc0520424875fcad195c97ee62db95d7b5e863be95eee95"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libogg-1.3.5.monterey.bottle.tar.gz",
+              "sha256": "61cbbd4f4b5c7229dce6121d61ca24806c52c435a70b15bf060ca2f2e6412bbc"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libogg-1.3.5.big_sur.bottle.tar.gz",
+              "sha256": "b28fe3ad76ad6caafbedb2587deac3b4f03f79cb1466e6f76a06724eaae346ee"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libogg-1.3.5.catalina.bottle.tar.gz",
+              "sha256": "e6c116ef9fa7ebac93b5b22fb1208d1d1f4b000fdfdae4b0ae9ec18fe5a5412c"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libogg-1.3.5.mojave.bottle.tar.gz",
+              "sha256": "f416f50ef34e470f690e27f3c29f65d6fe5b1aec56f16a2a312ba6011e809720"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libogg-1.3.5.x86_64_linux.bottle.tar.gz",
+              "sha256": "db517cc6e922b1d3a7c845bad5dd4c78d48b170aa94187d6281f8577f228a180"
+            }
+          }
+        }
+      },
+      "fribidi": {
+        "version": "1.0.11",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/fribidi-1.0.11.arm64_monterey.bottle.tar.gz",
+              "sha256": "e7c104d645d36d758001c381266aaa20ac40e0fc1591c02ae8d2310e8ca21109"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/fribidi-1.0.11.arm64_big_sur.bottle.tar.gz",
+              "sha256": "d80b767910f47f85b6fefc38a2742d520396f148b8290614b16328704f7c3bf4"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/fribidi-1.0.11.monterey.bottle.tar.gz",
+              "sha256": "28ddf160c24bea077a57dbd389a4e0ff44235fd04aa74335fcb043ab36b30fd4"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/fribidi-1.0.11.big_sur.bottle.tar.gz",
+              "sha256": "434c488a27dca39fa4fab0644cb9b2f495ea4f839eef63587d0de715a93a6f12"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/fribidi-1.0.11.catalina.bottle.tar.gz",
+              "sha256": "9ae1580fef75c9d665f5723200d7987b07674c452e2c236dae33e12a8cf16324"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/fribidi-1.0.11.mojave.bottle.tar.gz",
+              "sha256": "3ef3b5f32b31fad3fb8dc39a559b24abb04cf46c9b29303285eb160d1f4ed19c"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/fribidi-1.0.11.x86_64_linux.bottle.tar.gz",
+              "sha256": "f82a49f101fe666c5085302138ec5899e51c9346733149f4d872a9c468b7dcbe"
+            }
+          }
+        }
+      },
+      "little-cms2": {
+        "version": "2.13.1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/little-cms2-2.13.1.arm64_monterey.bottle.tar.gz",
+              "sha256": "0fc9bdf0e245b210e0260f2a641dc88b1b1b5c1004eeadaafb9536eb21a347ab"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/little-cms2-2.13.1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "e78f36abce8a417db16755c5dbbdf8817e14861ea92bd029bb36e424a8563f52"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/little-cms2-2.13.1.monterey.bottle.tar.gz",
+              "sha256": "0c50589e60d1fdc8e8ae52550c1ed0e9bbc68f77d105fa0180192d517cc5a85a"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/little-cms2-2.13.1.big_sur.bottle.tar.gz",
+              "sha256": "7fbbf54484b962a2b72104db3f425587acf88666c0dd0753b00eb104bce1a2cc"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/little-cms2-2.13.1.catalina.bottle.tar.gz",
+              "sha256": "152469fd79f4dde476f916be31fe0657656f298512201e6eb8be9f8dd9016c7a"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/little-cms2-2.13.1.x86_64_linux.bottle.tar.gz",
+              "sha256": "021649a443c169b8b18dd404f99d367ef79e5a6f650d8912b552a1b887e85ffe"
+            }
+          }
+        }
+      },
+      "openjpeg": {
+        "version": "2.4.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/openjpeg-2.4.0.arm64_monterey.bottle.tar.gz",
+              "sha256": "13b02f1e67d92a72a712a4cbeca0613c9467acef5e0a6c3ef45343988353c477"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/openjpeg-2.4.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "b57a02c3bc4ee8a43e47df5015e6e40a04d7149e172806157e279b1b03c715ef"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/openjpeg-2.4.0.monterey.bottle.tar.gz",
+              "sha256": "2dcf97a3d9df6686f006e9e9d471a71612da54a81de169dfc8b2dae83cfa2b79"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/openjpeg-2.4.0.big_sur.bottle.tar.gz",
+              "sha256": "43c37565eb2eec2b41dee3f1cc26e3324a42a368cb88092fe1b0dbc941f7678f"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/openjpeg-2.4.0.catalina.bottle.tar.gz",
+              "sha256": "80426609c75b98ee0ee394e9017bb621dc73dd2d6f60d0c851f6940d0b268676"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/openjpeg-2.4.0.mojave.bottle.tar.gz",
+              "sha256": "e26d092b6177ee282d3724dea5ea4cb76af3645472791c3fefb002e2638588b0"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/openjpeg-2.4.0.x86_64_linux.bottle.tar.gz",
+              "sha256": "c6aa616b62f6b6bc7604afdbddb4b665a33230f3661d112d9bd441bbadc6e66e"
+            }
+          }
+        }
+      },
+      "libvorbis": {
+        "version": "1.3.7",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvorbis-1.3.7.arm64_monterey.bottle.tar.gz",
+              "sha256": "521810a7d5d4d0779cfc22a7d8ba37bb452fea06a3ab8205d882961d1eeb8ff7"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvorbis-1.3.7.arm64_big_sur.bottle.tar.gz",
+              "sha256": "07ab1118fc6d389a8b0506d0b74a3cfc12026a837c8f2609b2133318c8818c81"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvorbis-1.3.7.monterey.bottle.tar.gz",
+              "sha256": "ce6cfb42216b79203bf86458b0f22cc42c0aeb5e1b1c0ab56e604b83ef374553"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvorbis-1.3.7.big_sur.bottle.tar.gz",
+              "sha256": "05e639c274f52924cbf31fb4337888ab51554a66597486aeed8e5942d267c586"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvorbis-1.3.7.catalina.bottle.tar.gz",
+              "sha256": "432eb21045d9dfac3ef879648d845d894cc828862f5498448fe98c0141ef5cd0"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvorbis-1.3.7.mojave.bottle.tar.gz",
+              "sha256": "59509a351e88352f01512b54cc5cb849c2551623f7d6dcd6679d38b5e96032ed"
+            },
+            "high_sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvorbis-1.3.7.high_sierra.bottle.tar.gz",
+              "sha256": "3e6609520d0ffd7179f721c23c1291f2735b70384d56d1c1dd10185ae355c4b2"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvorbis-1.3.7.x86_64_linux.bottle.tar.gz",
+              "sha256": "c205523df9d4dd5f8ee71b26018419b9cf5bbca73c64eec36f5cbe5f2db6bbbd"
+            }
+          }
+        }
+      },
+      "opus": {
+        "version": "1.3.1",
+        "bottle": {
+          "rebuild": 1,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/opus-1.3.1.arm64_monterey.bottle.1.tar.gz",
+              "sha256": "f7e4d08500365985c7f5adebfb7e48393a8d148cba70ad92f4980360919f5ba3"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/opus-1.3.1.arm64_big_sur.bottle.1.tar.gz",
+              "sha256": "e278b9182301daf80621269defffede5d134765b2c907cb921fff44d00ea9fe7"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/opus-1.3.1.monterey.bottle.1.tar.gz",
+              "sha256": "db0f02da71ae2fc11a841f618ab73eb956ea7a20eaf3ee1a093a61fcd3f2f579"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/opus-1.3.1.big_sur.bottle.1.tar.gz",
+              "sha256": "cffbcfe03bf3d0e6a9b9b301dc0ea71974ab6f49e1ab66dd7895679367ecf156"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/opus-1.3.1.catalina.bottle.1.tar.gz",
+              "sha256": "5cb191f66da0ef2b8d03985c79cb18a59506aaba8a01cc0b1a821c293e88d576"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/opus-1.3.1.mojave.bottle.1.tar.gz",
+              "sha256": "21fa4c22a63bccc5e188dabb9c85af63a57d19582c4f616716bccb063e2befec"
+            },
+            "high_sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/opus-1.3.1.high_sierra.bottle.1.tar.gz",
+              "sha256": "8b45ac09baae56bdc2c7ee224d5a1ae68efb826a9aec2220e0b27e8ce633b8aa"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/opus-1.3.1.x86_64_linux.bottle.1.tar.gz",
+              "sha256": "07546ab58820e7c13d1f5c28fc746b18262820158a3e30c53152db01a6818466"
+            }
+          }
+        }
+      },
+      "libvpx": {
+        "version": "1.11.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvpx-1.11.0.arm64_monterey.bottle.tar.gz",
+              "sha256": "0f00a294d49ccafb88029fb76958fb2762805ca7669f64d521a0cd261df1a8ad"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvpx-1.11.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "2edfb6a133be8947da27719975dbd19dd6233e12f21d221bea7f6008cfbc51a2"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvpx-1.11.0.monterey.bottle.tar.gz",
+              "sha256": "fb3c6bc5d4acdfbe258e1c9c5e24767e170e65a434ef983fbc1525e708cc7f6c"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvpx-1.11.0.big_sur.bottle.tar.gz",
+              "sha256": "73d6365843bd6b8c868b3bf020152225d06304117c23c2a1e579ce347d3ab4e1"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvpx-1.11.0.catalina.bottle.tar.gz",
+              "sha256": "28194ea0a917dcfecbfdcd51cb37da4ae1697238e3c2dedc769c502b435124c7"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvpx-1.11.0.mojave.bottle.tar.gz",
+              "sha256": "378b9f6680ea8a99c064d8acd0cfbfbf2a1c142d8c4f27cf935dcfed3342cc61"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libvpx-1.11.0.x86_64_linux.bottle.tar.gz",
+              "sha256": "e79ec2f50112da2b5adfc83b46604af182af8364410c9ec686c6c519c133229d"
+            }
+          }
+        }
+      },
+      "sdl2": {
+        "version": "2.0.20",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/sdl2-2.0.20.arm64_monterey.bottle.tar.gz",
+              "sha256": "3cbd5b0ac7c9f4aedfa57dcfa02cff1e88013e8713cd5ec76d185897ee052b4f"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/sdl2-2.0.20.arm64_big_sur.bottle.tar.gz",
+              "sha256": "7aca35ed5898e9dbcce4fa5372520f13626224d1600f391e70124012eeb1d0af"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/sdl2-2.0.20.monterey.bottle.tar.gz",
+              "sha256": "2f9879903f7c18cef28684ee6718510baed17d1dcafc01416da6a35a29f0a1af"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/sdl2-2.0.20.big_sur.bottle.tar.gz",
+              "sha256": "0a28562932bdf7d4f5b7528297d8a0d3a8e5ce04f67386110bc785800018f3bf"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/sdl2-2.0.20.catalina.bottle.tar.gz",
+              "sha256": "9469eff3f8d7ddc9064eb8223cd220d8b1934fd6b5205199a8eb7bf50d84df04"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/sdl2-2.0.20.x86_64_linux.bottle.tar.gz",
+              "sha256": "c1c80d0712cd623beb51bdfcfd9494b6b62639dcd70f8ae10f947731b7254236"
+            }
+          }
+        }
+      },
+      "theora": {
+        "version": "1.1.1",
+        "bottle": {
+          "rebuild": 4,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/theora-1.1.1.arm64_monterey.bottle.4.tar.gz",
+              "sha256": "56008e9450fcf3f712f34ec79407b8e738953d5fc50feaf72a6434dd28fc1101"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/theora-1.1.1.arm64_big_sur.bottle.4.tar.gz",
+              "sha256": "1e5271cb88e3dad8eb5f06460e7f3f2cec0129679c7f7fb4f84db1d09664b827"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/theora-1.1.1.monterey.bottle.4.tar.gz",
+              "sha256": "0bdb8acd2fafffff1e172c94aa6f67ce20ea67760d5296ac108ca1ec7e9e4c22"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/theora-1.1.1.big_sur.bottle.4.tar.gz",
+              "sha256": "7ba57255df2c2f4563767031c6b9ead9a93883217644e9e64b5523e26d7b1088"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/theora-1.1.1.catalina.bottle.4.tar.gz",
+              "sha256": "1fcbd50039f580bd85554af2d831c28f83613b5d26969f577f7fe87b3c55db67"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/theora-1.1.1.mojave.bottle.4.tar.gz",
+              "sha256": "6fdb09d75fc6e64b266a185e711c2964e803d8f10c0d40ccb8d572c536c24d3a"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/theora-1.1.1.x86_64_linux.bottle.4.tar.gz",
+              "sha256": "4ac10b8e87b29874cd0e6d61de22b1123cbc7757f0eae7e5c195dd8c1ab70ef8"
+            }
+          }
+        }
+      },
+      "x265": {
+        "version": "3.5",
+        "bottle": {
+          "rebuild": 1,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/x265-3.5.arm64_monterey.bottle.1.tar.gz",
+              "sha256": "e60559191a9aba607e512ad33ac9f66688b12837df7e6a3cf57ceae26968235b"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/x265-3.5.arm64_big_sur.bottle.1.tar.gz",
+              "sha256": "adc617eed2e065af669994fb5b538195fd46db4ac7b13c7ca2490dc8abaf6466"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/x265-3.5.monterey.bottle.1.tar.gz",
+              "sha256": "be446f5c7cb4872205f260b8821fc7ebd5bd7c4b8837888c98c08e051dff2e3f"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/x265-3.5.big_sur.bottle.1.tar.gz",
+              "sha256": "55bb46a5dc1924e59b7fa7bc800a21c0cf21355e48cb38b941d8e786427c70a0"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/x265-3.5.catalina.bottle.1.tar.gz",
+              "sha256": "5e5bc106e1cf971a176dd5b37a61d28769e353f81102c011b4230cc8732eca7a"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/x265-3.5.mojave.bottle.1.tar.gz",
+              "sha256": "c61ebdf9dcd4aedf5da2a7eb2b3a5154fd355c105a19a0471d43a3aa67f3cb88"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/x265-3.5.x86_64_linux.bottle.1.tar.gz",
+              "sha256": "c80f18988caea25e95ca87dd648f5ff8b0856e24d26adc8d68ca68cc6d4faabf"
+            }
+          }
+        }
+      },
+      "ffmpeg": {
+        "version": "5.0",
+        "bottle": {
+          "rebuild": 1,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ffmpeg-5.0.arm64_monterey.bottle.1.tar.gz",
+              "sha256": "ce63680952edd4c82bc73a00143ad5f87a2cc1f7c8e57078457b507d155ba94c"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ffmpeg-5.0.arm64_big_sur.bottle.1.tar.gz",
+              "sha256": "877fe3b70a34d6b2c1d3b59ee9a2107dd838cac42ffd7b1c2d9279cc55fbc4be"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ffmpeg-5.0.monterey.bottle.1.tar.gz",
+              "sha256": "06c17691891957a8fee5a6a20269aa9e221bd42aafeefcd5eeb4ff94a51f19dd"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ffmpeg-5.0.big_sur.bottle.1.tar.gz",
+              "sha256": "8ea54c02dbd8c19efc1cbfb7e105a9473c7e09d5e2564a4086a00d181f245e98"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ffmpeg-5.0.catalina.bottle.1.tar.gz",
+              "sha256": "53b165cfeeea5ae0d284c14ec13cc4a53dd6c12f4d6b00f12ab9efbbd920832c"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ffmpeg-5.0.x86_64_linux.bottle.1.tar.gz",
+              "sha256": "ea3430b0834f7b289b61fee2b0927ad26db9e4efc625b1906f69b7c156138dee"
+            }
+          }
+        }
+      },
+      "ffms2": {
+        "version": "2.40_2",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ffms2-2.40_2.arm64_monterey.bottle.tar.gz",
+              "sha256": "f1a45dd4f0f5e982e77b21dd054188c6d21cc92c4ff4b74aad393018066b7961"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ffms2-2.40_2.arm64_big_sur.bottle.tar.gz",
+              "sha256": "4a15ca2c400590fec38ceae34130e55068b921b361e8bddb78515e698dbe1f8e"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ffms2-2.40_2.monterey.bottle.tar.gz",
+              "sha256": "d347d4e6c60e31b9c34011ce612292163516a9e2ee2d6a7ae6a33202aef8b3f7"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ffms2-2.40_2.big_sur.bottle.tar.gz",
+              "sha256": "7068a2792f96145b9d506969e6c8be67860a3761dd85626ea1ea4d2b2fbe952d"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ffms2-2.40_2.catalina.bottle.tar.gz",
+              "sha256": "b6b9aec2667d3563abe27f82fceab498df32315040caccd22efe365c4d1da205"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ffms2-2.40_2.x86_64_linux.bottle.tar.gz",
+              "sha256": "62658f1852d235f4ce47d3911687a9319717e6e34efe8dd4c7bedc98c798a18c"
+            }
+          }
+        }
+      },
+      "flow": {
+        "version": "0.174.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/flow-0.174.0.arm64_monterey.bottle.tar.gz",
+              "sha256": "ad1b73226ab387b301931570af830dc588218a024f2ddb102ae6af594d28594c"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/flow-0.174.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "000de9b7e8a08b542acffc9db88c667082213776746115ec0ee05b41b0c5eb0b"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/flow-0.174.0.monterey.bottle.tar.gz",
+              "sha256": "eeec95dbf4af4fefce2743a5d723567b59bccc77e0c79ddcc809d3c5280a7343"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/flow-0.174.0.big_sur.bottle.tar.gz",
+              "sha256": "abac39fc511eae4d0cc176c46790e29c77bca22ca8fb7968dc82c6fa57e4aba7"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/flow-0.174.0.catalina.bottle.tar.gz",
+              "sha256": "e2fa9114b75321c4b402c938c7c4f55030765acaed84e9ff96ce4ebec624a185"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/flow-0.174.0.x86_64_linux.bottle.tar.gz",
+              "sha256": "0594c88fcce3858ade16d39013d848ac8faa2179a8cec63e222c3864124d8907"
+            }
+          }
+        }
+      },
+      "gdk-pixbuf": {
+        "version": "2.42.6",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/gdk-pixbuf-2.42.6.arm64_monterey.bottle.tar.gz",
+              "sha256": "328f6bdde8798f079a1b4abbd60f9ca9f6f1c308efb44eec863421817af4d7a8"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/gdk-pixbuf-2.42.6.arm64_big_sur.bottle.tar.gz",
+              "sha256": "1aa92bcea0846fe0b37a4d65bf5947f5c27ffc750a93bd94db69bfe25369fda3"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/gdk-pixbuf-2.42.6.monterey.bottle.tar.gz",
+              "sha256": "d8984c02730154183bde0adfcde24fa47bc7611eb134a77e20d15b17b3be4de9"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/gdk-pixbuf-2.42.6.big_sur.bottle.tar.gz",
+              "sha256": "f4cf795b20c84fb5074ceeeeaf7b1d22e164b7af13adb6d0b95e3655d867fd41"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/gdk-pixbuf-2.42.6.catalina.bottle.tar.gz",
+              "sha256": "94835aba06d5e7160fd19bb14e05d3aad2f27be4c7030c019e42208369cf6014"
+            },
+            "mojave": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/gdk-pixbuf-2.42.6.mojave.bottle.tar.gz",
+              "sha256": "4bd3543b83cd74bfd0de1bd94a9e0200374c0834ef636cfe99621fe3c2145aaa"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/gdk-pixbuf-2.42.6.x86_64_linux.bottle.tar.gz",
+              "sha256": "cd3d671f4129a4dddef888e1317b4e5840d217b75fee8e46a17b33630da674c8"
+            }
+          }
+        }
+      },
+      "jbig2dec": {
+        "version": "0.19",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/jbig2dec-0.19.arm64_monterey.bottle.tar.gz",
+              "sha256": "e15376f42a9d9372fffaaf07d739458a0af5870b2ddb2f5ce91e4d88b865daf2"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/jbig2dec-0.19.arm64_big_sur.bottle.tar.gz",
+              "sha256": "696d6862655e2919c4a6b1455923c2c26b3b9da7968aa2a6f6c0b544d10556f0"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/jbig2dec-0.19.monterey.bottle.tar.gz",
+              "sha256": "e1aed32e74617b0638751e69489b38dbcabd584f23961390a818bb85b412ffcd"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/jbig2dec-0.19.big_sur.bottle.tar.gz",
+              "sha256": "44aa9639d58ac2e176c37538c3fe652e077bcbf82264b756b4ba9db041e9273c"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/jbig2dec-0.19.catalina.bottle.tar.gz",
+              "sha256": "7e70d2b2472b4116d1f98b7518f124067dbfa8e4d3d73b552af38440e7770bdd"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/jbig2dec-0.19.mojave.bottle.tar.gz",
+              "sha256": "d02d163a886d1f3a9e1af50418ed2f19f66981b44a58f3228b3580f585929ee4"
+            },
+            "high_sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/jbig2dec-0.19.high_sierra.bottle.tar.gz",
+              "sha256": "8ec515805d2fab8f4db3b27afba0363428f341bb16fbda7d2708ef44fffc5285"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/jbig2dec-0.19.x86_64_linux.bottle.tar.gz",
+              "sha256": "5653cc9180b808ea6a60c11e6ef8fc76695e87ae47d5d1c6e6ed40070546f414"
+            }
+          }
+        }
+      },
+      "ghostscript": {
+        "version": "9.55.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ghostscript-9.55.0.arm64_monterey.bottle.tar.gz",
+              "sha256": "3cc72369ec9dd8c737de7834b34bbdd92d075ddf9809a149c1cb1aaf10892778"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ghostscript-9.55.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "617fe03b1a426807c84e2b0726ab4e15c2269d8874960d134fe9000efd54c456"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ghostscript-9.55.0.monterey.bottle.tar.gz",
+              "sha256": "634c6ee7518283215456e9d1807a7f15bf9c36f49f92031c28f9d5eb13ee1fd1"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ghostscript-9.55.0.big_sur.bottle.tar.gz",
+              "sha256": "8b3824307757256005d15c6415239e435ff37c51f3585e40168494c2bcb7388c"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ghostscript-9.55.0.catalina.bottle.tar.gz",
+              "sha256": "d53bb1c34d32ee6acb0805882e11e6608f5ff198cf15def073383e6cbf609828"
+            },
+            "mojave": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ghostscript-9.55.0.mojave.bottle.tar.gz",
+              "sha256": "80587b6291bf33ea170075e279baf6c5a900f58299eac84e87a16d076840841b"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ghostscript-9.55.0.x86_64_linux.bottle.tar.gz",
+              "sha256": "89736d32c56188e51e63508ef204f1f6f6256b6778e28ed3391c90066e5b98e2"
+            }
+          }
+        }
+      },
+      "libheif": {
+        "version": "1.12.0_1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libheif-1.12.0_1.arm64_monterey.bottle.tar.gz",
+              "sha256": "6285488bd07d49e996a1be0dfe7296051ade71cc2078ecbaa2243afd05afe560"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libheif-1.12.0_1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "ccf8a9fecc4629a5ae7b7cdb2db8e86c74cf70ab345f960d513e45b57f646174"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libheif-1.12.0_1.monterey.bottle.tar.gz",
+              "sha256": "b2cadb8ecf0985f007340e54853ffa685f57fd4dba8cae4bae37499119a9fe04"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libheif-1.12.0_1.big_sur.bottle.tar.gz",
+              "sha256": "6a82cb078278ee9e6240b6c738308974ca3a4ef545c30016f8395967bb6f4959"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libheif-1.12.0_1.catalina.bottle.tar.gz",
+              "sha256": "9ed1d527c347fa67d346d5d638b1760177693819d167c7dc549ebabcaabc428c"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libheif-1.12.0_1.x86_64_linux.bottle.tar.gz",
+              "sha256": "6382a34a85ddc5cb1a8359de883c18867340294b2f662e84650b287f04324484"
+            }
+          }
+        }
+      },
+      "python@3.8": {
+        "version": "3.8.13",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/python%403.8-3.8.13.arm64_monterey.bottle.tar.gz",
+              "sha256": "688f179ac9e4cad6740f3db6bb7a6c5e60035a8b1a416c8c4d90fb0db66697cf"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/python%403.8-3.8.13.arm64_big_sur.bottle.tar.gz",
+              "sha256": "57413c75763c27d1e411556179567a95e5984abccc691bb130c2d4c8de4e6011"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/python%403.8-3.8.13.monterey.bottle.tar.gz",
+              "sha256": "d974cd40f71d505fc86a1ae71e23413b8278af829cddd0369a237850342e752a"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/python%403.8-3.8.13.big_sur.bottle.tar.gz",
+              "sha256": "4e955d6f1d31a662479b9f3ae055d2819343d393800e879f26f97a8c50dc11b4"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/python%403.8-3.8.13.catalina.bottle.tar.gz",
+              "sha256": "9bbad0e0c565d86d98bf5db564e216c59c8ae011dcb4ddb3645911f60395e6ae"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/python%403.8-3.8.13.x86_64_linux.bottle.tar.gz",
+              "sha256": "af9aa64996a7c25968259af737bd3f99649486ec317956f0d2f5b464e16d7fae"
+            }
+          }
+        }
+      },
+      "liblqr": {
+        "version": "0.4.2_1",
+        "bottle": {
+          "rebuild": 1,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/liblqr-0.4.2_1.arm64_monterey.bottle.1.tar.gz",
+              "sha256": "00c8af9f4f4818defb464b1543cdc820cf8c10c5b7ccf30a9b306ee96519ce66"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/liblqr-0.4.2_1.arm64_big_sur.bottle.1.tar.gz",
+              "sha256": "5b55b5517f358ea17c882c7afcb02ef538fe032854a6a9e1f54785a35862adde"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/liblqr-0.4.2_1.monterey.bottle.1.tar.gz",
+              "sha256": "491fd59fd84a8bc28963dc72b04c4f98de9d835379ae5712af83ff66a6331180"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/liblqr-0.4.2_1.big_sur.bottle.1.tar.gz",
+              "sha256": "94977eaf2a6b9c9d52f178267ba034bb2515cb2ba0a643006c10f83ab6a532b9"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/liblqr-0.4.2_1.catalina.bottle.1.tar.gz",
+              "sha256": "18803ed552ae07c1998c87ba6c4ebaee1ec5eaab843c2cfa2cc3775f0b55da23"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/liblqr-0.4.2_1.mojave.bottle.1.tar.gz",
+              "sha256": "83054ddb4fffb94ea12f609a90082220a451bfdc793284d104f1fdeaf4aa8fd6"
+            },
+            "high_sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/liblqr-0.4.2_1.high_sierra.bottle.1.tar.gz",
+              "sha256": "43e9b4f518364d436b53c89b1ac42e2cfdcafc47fad1ba711bd6456122e47d62"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/liblqr-0.4.2_1.x86_64_linux.bottle.1.tar.gz",
+              "sha256": "7f4d5b2822f5ceba9fff258d869110d23e2e6f2f06dd958a7a12d6333e8944c4"
+            }
+          }
+        }
+      },
+      "libomp": {
+        "version": "13.0.1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libomp-13.0.1.arm64_monterey.bottle.tar.gz",
+              "sha256": "c56a6e4de05ecc20e307afe3a04502bd8245d78118d8d8431ecf321f3ad6bcc4"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libomp-13.0.1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "ad8604a13319a9959ce6a4adc769b114a78d7c2cb81e08116e499310d1ba518e"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libomp-13.0.1.monterey.bottle.tar.gz",
+              "sha256": "c751c4d5205f057c553ac87e132a8eac004e864140b495ef72cb6ecbdfd627a6"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libomp-13.0.1.big_sur.bottle.tar.gz",
+              "sha256": "4a4c9a2eecb72ee98bd8510c98d8e0318e63e1400758399ccb5bc1474d34ba68"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libomp-13.0.1.catalina.bottle.tar.gz",
+              "sha256": "ea04abaec05a603b3c76f33be974659a6a4cc58bd5a59fb7a1112ceafe2fe663"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libomp-13.0.1.x86_64_linux.bottle.tar.gz",
+              "sha256": "7daf56ed8b602f30782e77645f7fa3d4eb473e9f82f3da0baf58f9346c2211a2"
+            }
+          }
+        }
+      },
+      "imagemagick": {
+        "version": "7.1.0-27",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/imagemagick-7.1.0-27.arm64_monterey.bottle.tar.gz",
+              "sha256": "01067a64b931bae95c779c0550852be96d23a2719e263e50dc21047f254c8168"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/imagemagick-7.1.0-27.arm64_big_sur.bottle.tar.gz",
+              "sha256": "9d42b2048be7bf06660b7b7c947a37c016b48da28223ef6c38d012d62f31f70b"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/imagemagick-7.1.0-27.monterey.bottle.tar.gz",
+              "sha256": "a9ebae06f5d6ce684c4235229a36a38183247f5dfcd2720d14d42ea6bd9759cc"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/imagemagick-7.1.0-27.big_sur.bottle.tar.gz",
+              "sha256": "6414e7e1a6ad079822b5bb07f14b669d107732ca527f2812c4e90e80b24c28f3"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/imagemagick-7.1.0-27.catalina.bottle.tar.gz",
+              "sha256": "16fcaf048a260b2689c0fba69608bcbeaf69ab3f2fee3b3cbac8f67b2ce62031"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/imagemagick-7.1.0-27.x86_64_linux.bottle.tar.gz",
+              "sha256": "14756e51345c2c09fb0098db55af2378c3e6a65dbbeb9a746b1e33e548bf1ca7"
+            }
+          }
+        }
+      },
+      "gifify": {
+        "version": "4.0",
+        "bottle": {
+          "rebuild": 1,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/gifify-4.0.all.bottle.1.tar.gz",
+              "sha256": "c2721950d78064f75c5f4dbe1c8dc72bfbe3ddb34c5a8d94a3198551bf12aacf"
+            }
+          }
+        }
+      },
+      "git": {
+        "version": "2.35.1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/git-2.35.1.arm64_monterey.bottle.tar.gz",
+              "sha256": "e19e56133d9990f9097a31b7720fe307e4ba87d79019cce086ad8f1e25993012"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/git-2.35.1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "09773f8caeb9490d53dc8fbf552dd4b83c655c2219fec38202d351ab459973fa"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/git-2.35.1.monterey.bottle.tar.gz",
+              "sha256": "ec4d252f6ac282f2770bcf18af011e8032d1f43fc17af39e54465bb8148d1d2f"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/git-2.35.1.big_sur.bottle.tar.gz",
+              "sha256": "212244b5acaaa49fdd33b710fc6795c457aa25e89a854d39407bf36532137ef8"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/git-2.35.1.catalina.bottle.tar.gz",
+              "sha256": "362820c1071869ed3a31ecfb8cb9c022aaef715745348f72f975b90b94091ef8"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/git-2.35.1.x86_64_linux.bottle.tar.gz",
+              "sha256": "34b29f7801095ae255f03bae5d0dde6fc98910811f17266e8b4af73310c3c314"
+            }
+          }
+        }
+      },
+      "git-flow": {
+        "version": "0.4.1_1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/git-flow-0.4.1_1.all.bottle.tar.gz",
+              "sha256": "cffa267a59238174b54b4058131b3fdf674d4fa79ff724dd7111f6bc7730c40f"
+            }
+          }
+        }
+      },
+      "gnupg": {
+        "version": "2.3.4",
+        "bottle": {
+          "rebuild": 1,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/gnupg-2.3.4.arm64_monterey.bottle.1.tar.gz",
+              "sha256": "958e40c9a4115f25318627d18fd2c5e25a7bf630c0eb9b1101474f8af1a5d91c"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/gnupg-2.3.4.arm64_big_sur.bottle.1.tar.gz",
+              "sha256": "3d20bf8fa467ce9d677313037ef27901ebd69a73a1f7a4a8c263896cdd690632"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/gnupg-2.3.4.monterey.bottle.1.tar.gz",
+              "sha256": "3d91e20de686f91d7918114518f38506e0c561416ac80a725109017469af25f2"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/gnupg-2.3.4.big_sur.bottle.1.tar.gz",
+              "sha256": "a15299b64221d69ba4fa0b3ec5937e26e61b8baa6d88a72d4dbab25c1b26582c"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/gnupg-2.3.4.catalina.bottle.1.tar.gz",
+              "sha256": "ff269c2042cfb061a1aab07b9472eb5154b2d2c43d02901d3c3f783ca4145748"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/gnupg-2.3.4.x86_64_linux.bottle.1.tar.gz",
+              "sha256": "10e8b00b51ae53498850208595817562676987cb1f0876fba4728345d137719a"
+            }
+          }
+        }
+      },
+      "libplist": {
+        "version": "2.2.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libplist-2.2.0.arm64_monterey.bottle.tar.gz",
+              "sha256": "b31c287f7c027c0f241dbfecb261e2a71910dcff601ceb5404ec8072dfd2a453"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libplist-2.2.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "ed9c2d665d5700c91f099bd433a38ba904b63eef4d3cdc47bd0f6b0229ac689a"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libplist-2.2.0.monterey.bottle.tar.gz",
+              "sha256": "fd33860939e18cc5a5c50be2ca667db7d99a191aa445fefdfde51435c0f4453d"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libplist-2.2.0.big_sur.bottle.tar.gz",
+              "sha256": "1ac05ef69cc02f4663fbb1c3d6d6e964c70a5ba0743d7e9e242da06864a63a70"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libplist-2.2.0.catalina.bottle.tar.gz",
+              "sha256": "20faf60d286c8ceed790a9b6e34245acf7bafacc7fcbcb390d6b62e194b323e6"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libplist-2.2.0.mojave.bottle.tar.gz",
+              "sha256": "768453f8710ec1c3e074ad0ebc7723da88c2b8575e5de6962ca6f1d4a85cb61d"
+            },
+            "high_sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libplist-2.2.0.high_sierra.bottle.tar.gz",
+              "sha256": "02291f2f28099a73de8fa37b49962fe575a434be63af356cceff9200c6d73f37"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libplist-2.2.0.x86_64_linux.bottle.tar.gz",
+              "sha256": "f6677078ae6fbcfeabfee04dcb64e405f1bfcea07643752e3b5db89780404d5e"
+            }
+          }
+        }
+      },
+      "libimobiledevice": {
+        "version": "1.3.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libimobiledevice-1.3.0.arm64_monterey.bottle.tar.gz",
+              "sha256": "f3c97e567f59c4a8ab79f8a3d66a32d109fc9a7c22891589b998edb6a4e5ba28"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libimobiledevice-1.3.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "41a64c9856f7845bb4c21bba4f42eb55c640301b59c032eb4db416db19ecf97d"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libimobiledevice-1.3.0.monterey.bottle.tar.gz",
+              "sha256": "2cde67c8eef4e971ce74428a9162e9680d7a9ab542571f438602efe431d3a121"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libimobiledevice-1.3.0.big_sur.bottle.tar.gz",
+              "sha256": "0fe21433f470130b972354d411d05f43ab37d82198565bb6b947734a95e98c5d"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libimobiledevice-1.3.0.catalina.bottle.tar.gz",
+              "sha256": "eb7f28d86797461d5ef859d00629176e1ce3234790ef17b9ee3f9c9990a664e2"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libimobiledevice-1.3.0.mojave.bottle.tar.gz",
+              "sha256": "5143eaf34011a22dd1951f10495a7568e77a2e862fb9f4dbae9bab2f784f926e"
+            },
+            "high_sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libimobiledevice-1.3.0.high_sierra.bottle.tar.gz",
+              "sha256": "072d224a0fa2a77bccde27eee39b65300a387613b41f07fc677108a7812ec003"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/libimobiledevice-1.3.0.x86_64_linux.bottle.tar.gz",
+              "sha256": "d3a744d1aa95788a31c40fa0029e5f70631e81b040375bf92f18c845371a7f4a"
+            }
+          }
+        },
+        "options": {
+          "args": [
+            "HEAD"
+          ]
+        }
+      },
+      "ideviceinstaller": {
+        "version": "1.1.1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ideviceinstaller-1.1.1.arm64_monterey.bottle.tar.gz",
+              "sha256": "e5bf0e5ed6aad688593878bdf8e78c5aa84530ee053f5ea21ad433cf99f59873"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ideviceinstaller-1.1.1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "30f56186281509d1f77d7a00cbcd1f313cd80135e3f9e2a235ca649f9a23e5f1"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ideviceinstaller-1.1.1.monterey.bottle.tar.gz",
+              "sha256": "e6e374f35c4eeb37763e7755228c108ee96024b8599943fa741450be35915d93"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ideviceinstaller-1.1.1.big_sur.bottle.tar.gz",
+              "sha256": "6d98523b90770662e350311c375f1157ac0c708769ce2145036aeed451e26621"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ideviceinstaller-1.1.1.catalina.bottle.tar.gz",
+              "sha256": "6ee12db78e8c224c0eb0cf88eb4f43242eb1ba672eb006636273b99b75b02a87"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ideviceinstaller-1.1.1.mojave.bottle.tar.gz",
+              "sha256": "6ed5e4f7ace33fd5f4d1b4c6b9f0fd519836080e170b981e63942087698351c6"
+            },
+            "high_sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ideviceinstaller-1.1.1.high_sierra.bottle.tar.gz",
+              "sha256": "0dfe944eaa47cad87ad22f70dbbcefdb6b27bbeb83ca1f7a229827c03054c07c"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ideviceinstaller-1.1.1.x86_64_linux.bottle.tar.gz",
+              "sha256": "e225e3d9f0e6508b4fb73d9e7ea5eaec71b75d9d7ca7ac591adcfb3b9fd324fc"
+            }
+          }
+        }
+      },
+      "ios-deploy": {
+        "version": "1.11.4",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ios-deploy-1.11.4.arm64_monterey.bottle.tar.gz",
+              "sha256": "e149d628fae457011dc5d3af6215ae3e8311ec08f4affbc96f00a3de5ef47791"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ios-deploy-1.11.4.arm64_big_sur.bottle.tar.gz",
+              "sha256": "e85b52bd030eef2dfdc3f354fd4850fc6a09391e2822f48a1de8fed4d3581a4d"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ios-deploy-1.11.4.monterey.bottle.tar.gz",
+              "sha256": "72596357a448618bd705170d5dc2ed8b69debcc06deb7ce8d7d414050fb8fd68"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ios-deploy-1.11.4.big_sur.bottle.tar.gz",
+              "sha256": "b4490b2ef74d1e2b498bf9a5e79305dacbd2bed3c5e0dd6b93822e19953f2074"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ios-deploy-1.11.4.catalina.bottle.tar.gz",
+              "sha256": "23244feccb6cf78da5eb83163c6a187acc3aa8248fa34eb909e1728b4876e5bb"
+            },
+            "mojave": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ios-deploy-1.11.4.mojave.bottle.tar.gz",
+              "sha256": "2a5a3fd9d3288d48a75f4f85aaf72e98d0866edca7c5b56ba6d2ccf0d98e96b8"
+            }
+          }
+        }
+      },
+      "pango": {
+        "version": "1.50.5",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pango-1.50.5.arm64_monterey.bottle.tar.gz",
+              "sha256": "b5e081e40a0c39a952be8e912d28d74f4a7a3f4db4b33bdbadbad340b2af836e"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pango-1.50.5.arm64_big_sur.bottle.tar.gz",
+              "sha256": "a5bd533f40412a4b9f040065b0b1f0d2fe46c89e57b39b0d938c91b0cb125ba4"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pango-1.50.5.monterey.bottle.tar.gz",
+              "sha256": "c31df18daf1198d322091f6d77c6e6474d4c84b2a125bc1adce540666b5cac0f"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pango-1.50.5.big_sur.bottle.tar.gz",
+              "sha256": "f6dc158aa9a6e5029b7eacd00a4453a65343d421be50c8acf637c8b7b1ad51ef"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pango-1.50.5.catalina.bottle.tar.gz",
+              "sha256": "fa79f73d332b1493a664c7144bf3347e1d94dfec57292a29810a577f04b2585f"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pango-1.50.5.x86_64_linux.bottle.tar.gz",
+              "sha256": "4aad9250d37c0f9b845f634c7dc898007c6cf8cc98401bad9bce204983e8fd2c"
+            }
+          }
+        }
+      },
+      "librsvg": {
+        "version": "2.52.7",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/librsvg-2.52.7.arm64_monterey.bottle.tar.gz",
+              "sha256": "0e362408ee1aad807e72b8a12ded24c395470fe606bfbd698d846a4d6b3d243e"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/librsvg-2.52.7.arm64_big_sur.bottle.tar.gz",
+              "sha256": "25d1043b31522f2a576b71083d2db0045c8015006d1cdceefdf65fa2193b605a"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/librsvg-2.52.7.monterey.bottle.tar.gz",
+              "sha256": "8be5d2eb452b3b70b34a1cd05e43d8fe930694213e49054a7688ef26a5aa2232"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/librsvg-2.52.7.big_sur.bottle.tar.gz",
+              "sha256": "a3082a7e46235bfb9bdede1d1c540fcf27fcb240eac7af862eb8518ac0dc077b"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/librsvg-2.52.7.catalina.bottle.tar.gz",
+              "sha256": "53a99431714760a9187c6aad1dfdc2d6dbe311a2c8406d5c76ecad7a526f82cf"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/librsvg-2.52.7.x86_64_linux.bottle.tar.gz",
+              "sha256": "8980f09ba21efdbb4499317887fc58b813413a70c5b59cbe2f74fb9db59f2670"
+            }
+          }
+        }
+      },
+      "lua@5.3": {
+        "version": "5.3.6",
+        "bottle": {
+          "rebuild": 2,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lua%405.3-5.3.6.arm64_monterey.bottle.2.tar.gz",
+              "sha256": "c8b7e58e974dbd961e98ca2454e079834d9ab587a8793421541d9f3819b94499"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lua%405.3-5.3.6.arm64_big_sur.bottle.2.tar.gz",
+              "sha256": "e06800c163acfcb6a1d0201ca303a631b8fef9c9047855c59795f015d23bd52b"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lua%405.3-5.3.6.monterey.bottle.2.tar.gz",
+              "sha256": "dd559951c01f28022e4d2a9729f4eb2f94803d365ff272ab3c361e06490cdfee"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lua%405.3-5.3.6.big_sur.bottle.2.tar.gz",
+              "sha256": "ce0820b10f9329826746487c3d69c475241cc7153dcbae1b250e853320256c27"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lua%405.3-5.3.6.catalina.bottle.2.tar.gz",
+              "sha256": "7ac8234731edf3b0eb86a20cda2bdb6c0de637529790263d076de7da6cc7ab93"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lua%405.3-5.3.6.mojave.bottle.2.tar.gz",
+              "sha256": "564c6e085e6a2bc744982dbdb1934ace6332231b1190e56a08e11248d6b416e2"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lua%405.3-5.3.6.x86_64_linux.bottle.2.tar.gz",
+              "sha256": "dab7e95e006b66d91b3dd4328202d5fe4769be8be19c72a02f63a94fa838ba5e"
+            }
+          }
+        }
+      },
+      "lzlib": {
+        "version": "1.13",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzlib-1.13.arm64_monterey.bottle.tar.gz",
+              "sha256": "e209c35c3ebfda8ac9a4f010f4b67c2edb791023d8aad2798b759f7e62debeb4"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzlib-1.13.arm64_big_sur.bottle.tar.gz",
+              "sha256": "90f5f6d7704043f05267c00c988a5e72f383bfa3d68628c7a683b6177ea6e542"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzlib-1.13.monterey.bottle.tar.gz",
+              "sha256": "70694976deaa1ee867a7cda0aae5bef7055b001cdc654be21afa5d3327fd3b3a"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzlib-1.13.big_sur.bottle.tar.gz",
+              "sha256": "8e87447e82af22377a309c648689820893e0add73356567e83e119a1bed9a28b"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzlib-1.13.catalina.bottle.tar.gz",
+              "sha256": "e60bfc9d982c3c40170a4f645a1466f9cc979f33b1a024ee9c2aa8e03d3597a6"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/lzlib-1.13.x86_64_linux.bottle.tar.gz",
+              "sha256": "443361cdf8e0ec75e738ed3b54298018a1b67e3635c660212d42187d5b3494e4"
+            }
+          }
+        }
+      },
+      "ruby": {
+        "version": "3.1.1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ruby-3.1.1.arm64_monterey.bottle.tar.gz",
+              "sha256": "90383af9d5a0a3e01f03ed01b20d52dea665886b4b8fd8c6a5611e78fda3a0f7"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ruby-3.1.1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "3d1b5f14c723530cf4387084d12129077f830057fb6e802882d30c14d7243bf2"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ruby-3.1.1.monterey.bottle.tar.gz",
+              "sha256": "e61f2b8670e42013d92e38da11fc6bff8a4857503aec1e2160efb6fc3e256056"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ruby-3.1.1.big_sur.bottle.tar.gz",
+              "sha256": "625c195be406f1ecbf5058d5fd8c2536496ba6206ce6e903d7278f80e0936ce7"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ruby-3.1.1.catalina.bottle.tar.gz",
+              "sha256": "c38f5c3ee526bc77c5d98e9e8b461b15d7e5056746ef41e42870e37a593a9f1b"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ruby-3.1.1.x86_64_linux.bottle.tar.gz",
+              "sha256": "bfd010ea1f0a058e627e7ac925acd340c56de98f3c193c94ef3439bef5a58f92"
+            }
+          }
+        }
+      },
+      "macvim": {
+        "version": "HEAD-315df78",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/macvim-8.2-172.arm64_monterey.bottle.tar.gz",
+              "sha256": "583d61e85112266e0a76a0f28fc000add12a780a128050537bc2431b90857d88"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/macvim-8.2-172.arm64_big_sur.bottle.tar.gz",
+              "sha256": "5353adb5cbd7cf25926390582328d748fe07e848eee0a999892c11e918721588"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/macvim-8.2-172.monterey.bottle.tar.gz",
+              "sha256": "82b452d795bab0b1771eab28210e4a342b723724d3a90ed54f411e948cf26e37"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/macvim-8.2-172.big_sur.bottle.tar.gz",
+              "sha256": "d901772860a5fb47aa384027e664a2ce6efcd049d66a0443545054fc17cc0c68"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/macvim-8.2-172.catalina.bottle.tar.gz",
+              "sha256": "d884f16d3c245adde4cb559f40a98db6fbb2ade43b8fb9c11698fb6145b086db"
+            }
+          }
+        },
+        "options": {
+          "args": [
+            "HEAD"
+          ]
+        }
+      },
+      "md5sha1sum": {
+        "version": "0.9.5_1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/md5sha1sum-0.9.5_1.arm64_monterey.bottle.tar.gz",
+              "sha256": "975c34811713cfbce39d2d7627b62e1a026b4e21dec59f7571fb813b31a9d483"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/md5sha1sum-0.9.5_1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "6d1aa8a6c57e734885363c8c2dec012e52716332706a7695f5d0994e75957fdf"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/md5sha1sum-0.9.5_1.monterey.bottle.tar.gz",
+              "sha256": "b06863261442b3ca6bce142c3bd0da8333568324bdc3db17cd739114a9001fb7"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/md5sha1sum-0.9.5_1.big_sur.bottle.tar.gz",
+              "sha256": "c3ce2a7048d5e035493c2f637249da99f726109a9a643498576441c4c9ec7d58"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/md5sha1sum-0.9.5_1.catalina.bottle.tar.gz",
+              "sha256": "d498b282ccd1e70d8676184b3eda51eea4e99baacb92e6d69df2fd05a98d511f"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/md5sha1sum-0.9.5_1.mojave.bottle.tar.gz",
+              "sha256": "b1dc1ded1df513c24b7eab764707b088f42661c2cf53395e42ee4e03c245ac5d"
+            },
+            "high_sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/md5sha1sum-0.9.5_1.high_sierra.bottle.tar.gz",
+              "sha256": "7ed564b5da0f1adf33c0242bffcd4e456d4e46540b578d3cdb810a9f6a28474b"
+            },
+            "sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/md5sha1sum-0.9.5_1.sierra.bottle.tar.gz",
+              "sha256": "66ff4c578f7eff04b561192dd7789e013714caed61dac322df99f5652790abc7"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/md5sha1sum-0.9.5_1.x86_64_linux.bottle.tar.gz",
+              "sha256": "c25d9290972bc2bcec287eb11b91349f3dd0e5db8ad3a24b35874f7715682cfa"
+            }
+          }
+        }
+      },
+      "nginx": {
+        "version": "HEAD-a736a7a613ea_1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/nginx-1.21.6_1.arm64_monterey.bottle.tar.gz",
+              "sha256": "737ab2f1858bc8f3378f19da55e98d79f4014452e7ac37ab713b13c828ec95cc"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/nginx-1.21.6_1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "3134aaef6f9b646784cc5dc5528958f57accff411e38feb137f2374e8d624ba9"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/nginx-1.21.6_1.monterey.bottle.tar.gz",
+              "sha256": "dba847687a67f4a25202f00c27821d2d39f0eddeb28fa8d3d1126e574706b042"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/nginx-1.21.6_1.big_sur.bottle.tar.gz",
+              "sha256": "4b6822266d64a0aa1baea76f01ead5ec163a90311747fa624cf9f234a7ee41b6"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/nginx-1.21.6_1.catalina.bottle.tar.gz",
+              "sha256": "e3f1eec4488b61a4c6bb56f338b30fbd1472a409db8a3bada92933fb92dc4b95"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/nginx-1.21.6_1.x86_64_linux.bottle.tar.gz",
+              "sha256": "1d64f3a67ccf10bb8e4529c148cc3244d7e2c8864126f3700fe57e775d7d6fd7"
+            }
+          }
+        },
+        "options": {
+          "args": [
+            "HEAD"
+          ]
+        }
+      },
+      "nss": {
+        "version": "3.76",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/nss-3.76.arm64_monterey.bottle.tar.gz",
+              "sha256": "8f0e6f1284b33ea931b0867e8650b1d8d2b36919a6281087c1ebed53987de7e2"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/nss-3.76.arm64_big_sur.bottle.tar.gz",
+              "sha256": "b5fbc6c2f456591655b9831df949b3f26b0241683e5fd57e77e0da4b0edae19b"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/nss-3.76.monterey.bottle.tar.gz",
+              "sha256": "99b8c4728feff4157f9d41656f817ee60c9d763c9f33f0dca4eb17b0be173f27"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/nss-3.76.big_sur.bottle.tar.gz",
+              "sha256": "6d2ba6508744086fb33a1c14988df6ef3561a3a4b060eb6fa7f41eade1e70563"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/nss-3.76.catalina.bottle.tar.gz",
+              "sha256": "79afacfc9f08c4de38e357e8d811a9ab8e18fcaee01aaa4f418121cabbbb62a5"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/nss-3.76.x86_64_linux.bottle.tar.gz",
+              "sha256": "38fa099e6147b079332428d80867e657d733946bdaf202a80dd914a23206495b"
+            }
+          }
+        }
+      },
+      "nvm": {
+        "version": "0.39.1_1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/nvm-0.39.1_1.all.bottle.tar.gz",
+              "sha256": "6e14c8a2bf94212545c1ebac9a722df168c318d0e8af2fc75b729a07fea54efe"
+            }
+          }
+        }
+      },
+      "p7zip": {
+        "version": "17.04",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/p7zip-17.04.arm64_monterey.bottle.tar.gz",
+              "sha256": "6b411a180788d3702feb447c95a24fba571277c8708db22929ff4a98e269ed5b"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/p7zip-17.04.arm64_big_sur.bottle.tar.gz",
+              "sha256": "d1e2497a5256b9211572534456bb7271c9d04d10fc2e12599b95e0ddf4f1991b"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/p7zip-17.04.monterey.bottle.tar.gz",
+              "sha256": "63427747e339024f690bdffeac4848e8e46cc17c6189713054b130725a00b43c"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/p7zip-17.04.big_sur.bottle.tar.gz",
+              "sha256": "c4d62f05f0cba984aa6b5712debc4f7d3b2c3bece0c503633a588cb209c911c2"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/p7zip-17.04.catalina.bottle.tar.gz",
+              "sha256": "bea86999db7dee5f0cb78d3a72d875d822ec73ebb2a6e7d46cf27ae66243c645"
+            },
+            "mojave": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/p7zip-17.04.mojave.bottle.tar.gz",
+              "sha256": "1484f0f3a0a4812dccb5f388c6671a7e524b001872b0df6d7cabc160c2f03989"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/p7zip-17.04.x86_64_linux.bottle.tar.gz",
+              "sha256": "d996780ca46e35a641f5f37284d19490cb5e0a990c9369045e92ba463d99430a"
+            }
+          }
+        }
+      },
+      "pandoc": {
+        "version": "2.17.1.1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pandoc-2.17.1.1.arm64_monterey.bottle.tar.gz",
+              "sha256": "318fbfce3634193ea4242c73b8d7e4a3e6322b4319df2ac376fa3faa820c91c9"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pandoc-2.17.1.1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "b4d418739b29403698bc541d78ad0645a515373b60187bd5afeb1179ecaae6a4"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pandoc-2.17.1.1.monterey.bottle.tar.gz",
+              "sha256": "d5a3f5bb295acca845f5de240a17733aec4dfd1cd81c4533f9da65137a577b28"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pandoc-2.17.1.1.big_sur.bottle.tar.gz",
+              "sha256": "0e6fc53816b145927063c27915df029d0c7be3747c39501dfe26e1af72354f4c"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pandoc-2.17.1.1.catalina.bottle.tar.gz",
+              "sha256": "0ade4c9939b5d8f130c7d3c32f5d9dc767fd8dd868f40114c401fc6effa6f34e"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pandoc-2.17.1.1.x86_64_linux.bottle.tar.gz",
+              "sha256": "2d2dbcffa36a46a301055221f05ad32f7c525352184291c138efacf955af93ac"
+            }
+          }
+        }
+      },
+      "pinentry-mac": {
+        "version": "1.1.1.1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pinentry-mac-1.1.1.1.arm64_monterey.bottle.tar.gz",
+              "sha256": "7ebbe0d43dcdf88c28e7df80ddb21ca669968107beaf7dd224efc461cc25474b"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pinentry-mac-1.1.1.1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "64958e3763e548e154a485382fdab8525e7df237c9198ce5b60e4966ba91fc41"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pinentry-mac-1.1.1.1.monterey.bottle.tar.gz",
+              "sha256": "3951ca662de62018c9a82921a29f9a06989f0efe25f68c84107c12f3a485be88"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pinentry-mac-1.1.1.1.big_sur.bottle.tar.gz",
+              "sha256": "44b9e026ae382505ac98e01aca3d97727deff1dc57e7a15e6aae08371142439c"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pinentry-mac-1.1.1.1.catalina.bottle.tar.gz",
+              "sha256": "2957715c9a914da6774f4f28523962aa512eb89858aae57a35bc299d2458932c"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/pinentry-mac-1.1.1.1.mojave.bottle.tar.gz",
+              "sha256": "e7a94a9c022f0996b24ff4da4b9e5cee34cf681a8571320b0f49e129d6fde8e0"
+            }
+          }
+        }
+      },
+      "protobuf": {
+        "version": "3.19.4",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/protobuf-3.19.4.arm64_monterey.bottle.tar.gz",
+              "sha256": "a467da7231471d7913ed291e83852e1ca950db86d142b2a67e0839743dc132b7"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/protobuf-3.19.4.arm64_big_sur.bottle.tar.gz",
+              "sha256": "188863a706dd31a59ce0f4bdcf7d77d46e681ed8e72a8ab9ba28e771b52b58fd"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/protobuf-3.19.4.monterey.bottle.tar.gz",
+              "sha256": "ca9840b58a314543c0f45490e6a543eb330eb772f0db385ef005d82b6b169047"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/protobuf-3.19.4.big_sur.bottle.tar.gz",
+              "sha256": "a6e39ca1c9418561aa2e576a62c86fe11674b81c922a8f610c75aa9211646863"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/protobuf-3.19.4.catalina.bottle.tar.gz",
+              "sha256": "5cc145bfca99db8fbe89d8b24394297bde7075aaa3d564cd24478c5762563ef6"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/protobuf-3.19.4.x86_64_linux.bottle.tar.gz",
+              "sha256": "7c3e53cb5448c38183693262da84e5e100a11c3d08de6b5088ed2d1a7f00e106"
+            }
+          }
+        }
+      },
+      "rust": {
+        "version": "1.59.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/rust-1.59.0.arm64_monterey.bottle.tar.gz",
+              "sha256": "51869c798355307b59992918e9a595c53072d7a29458dbe5b8d105b63d3dd1c0"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/rust-1.59.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "c6986c77e3cde24130639e1beeffe27c67e5afa9b83932ca49699a5a27f4965c"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/rust-1.59.0.monterey.bottle.tar.gz",
+              "sha256": "b377dbe44d8eed401316cba6a645e8619d5424d6c2aa2bd087642091105a3fc1"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/rust-1.59.0.big_sur.bottle.tar.gz",
+              "sha256": "88dd52b9c0f0415922396c497c52ca806aaae1e84b2ddc976711da3a54bcd9ed"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/rust-1.59.0.catalina.bottle.tar.gz",
+              "sha256": "d5a1552c08362eadd8dbda60301eb53a550a56a9df62a3459f43ba15bf6a5999"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/rust-1.59.0.x86_64_linux.bottle.tar.gz",
+              "sha256": "be3004d2ab648af503f39d7a840e435a15ebce5eee31f239ccd2ec09aeefeefd"
+            }
+          }
+        }
+      },
+      "sbt": {
+        "version": "1.6.2",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/sbt-1.6.2.all.bottle.tar.gz",
+              "sha256": "40fe7bdc9663bf3e9889cf52f54e65c3071e34b7f14edd954d5cb7c6585ebd10"
+            }
+          }
+        }
+      },
+      "sphinx-doc": {
+        "version": "4.4.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/sphinx-doc-4.4.0.arm64_monterey.bottle.tar.gz",
+              "sha256": "02c9f915adb3b05c568c008e21fa23d93730ab345f62bd707e799df4ff70579f"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/sphinx-doc-4.4.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "8d8dc4427721b4a13edd06872fd516bbeeb1a1f625504ca97382f78fee6da8a5"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/sphinx-doc-4.4.0.monterey.bottle.tar.gz",
+              "sha256": "af72aec71bc366710c6c1fb2cd38d69f733d7576d8c46ba1aa4330c46623ee6b"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/sphinx-doc-4.4.0.big_sur.bottle.tar.gz",
+              "sha256": "c68a633fce8999306f9514acfd36cca36f63fa0f09da5a8a4e5bb16411749b58"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/sphinx-doc-4.4.0.catalina.bottle.tar.gz",
+              "sha256": "383fcd3c09a0021b1b660bb7d2d0eef67006e8b9caa524619e296cec0402ea3c"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/sphinx-doc-4.4.0.x86_64_linux.bottle.tar.gz",
+              "sha256": "4a4a1451047977f5a399aa52bce8bb887e7c70bffe6e662fbcd576f169a84832"
+            }
+          }
+        }
+      },
+      "telnet": {
+        "version": "63",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/telnet-63.arm64_monterey.bottle.tar.gz",
+              "sha256": "83fb633f08504f7f2e89c866530c4ee83798e043eeb5a1974919311651c99c37"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/telnet-63.arm64_big_sur.bottle.tar.gz",
+              "sha256": "563fcbef08590e48a07079f00877e14f22f54849db11ee02ba7c935499a7ccd1"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/telnet-63.monterey.bottle.tar.gz",
+              "sha256": "f0b297685d31e574035700bd31e2003e81cad22c6d5b5a0f746d7b9b0be20f90"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/telnet-63.big_sur.bottle.tar.gz",
+              "sha256": "e6fb7de53e703755a72e227752f81023c2935567d935af638959e986da910b3e"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/telnet-63.catalina.bottle.tar.gz",
+              "sha256": "7435a9fd2515158762a85197a4ad7141e430383e185e002da169dbbb638c952f"
+            },
+            "mojave": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/telnet-63.mojave.bottle.tar.gz",
+              "sha256": "d5009f496dc6cf0c13b936996f98b91b0f12733ea9462843b56a39fc53b20fe0"
+            },
+            "high_sierra": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/telnet-63.high_sierra.bottle.tar.gz",
+              "sha256": "af38f3c6dd4ff5eda2248671958e66595b39e74cdeecca52af4efb495bc659a7"
+            }
+          }
+        }
+      },
+      "tmux": {
+        "version": "3.2a",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/tmux-3.2a.arm64_monterey.bottle.tar.gz",
+              "sha256": "34ea39085a19233bc1f87bcc360cb3bdd52dd5842399bb7e0ad16bcb1f815234"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/tmux-3.2a.arm64_big_sur.bottle.tar.gz",
+              "sha256": "3138a67aceee5eea374c6a61e799073f661ce132f8b8ff2ee2b5cef06fb93725"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/tmux-3.2a.monterey.bottle.tar.gz",
+              "sha256": "7355c39cf84eebe6ac33cf15959ca7867eb50c86791f1e5a053193750810c5fe"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/tmux-3.2a.big_sur.bottle.tar.gz",
+              "sha256": "db717e09b9e53769b9bc6f277d25f20c8ec159eb90093a45c0ceefb54105509a"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/tmux-3.2a.catalina.bottle.tar.gz",
+              "sha256": "9aa7eba75f4f56f099182ecd7d41cad0117ce1a11f9fcbd8319a22015c317898"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/tmux-3.2a.mojave.bottle.tar.gz",
+              "sha256": "fa64cb30acc5300390f65f29ed95b4a816f1431b3dbd94051ee695243cf5c63e"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/tmux-3.2a.x86_64_linux.bottle.tar.gz",
+              "sha256": "c516a5986729c70f0a7ca385a41267b73e88694b8d705a3ec7272562c4958d60"
+            }
+          }
+        }
+      },
+      "tree": {
+        "version": "2.0.2",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/tree-2.0.2.arm64_monterey.bottle.tar.gz",
+              "sha256": "4067f9a8f40d9bbf337272fcee99df3ad4d055ebbaf7166fed039e1bb1a45cb9"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/tree-2.0.2.arm64_big_sur.bottle.tar.gz",
+              "sha256": "332870d58176b70b06af057186afe0fb3168158c51ff2826222dd43fafe582b7"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/tree-2.0.2.monterey.bottle.tar.gz",
+              "sha256": "ea1c2527bde7429aef3bc634a0dc52db53616a5d1c2861f6338c5ae3f5539624"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/tree-2.0.2.big_sur.bottle.tar.gz",
+              "sha256": "e4530a4cc9024dafee21609b81b7d10649a1817c7a9c718b697b34d592e45282"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/tree-2.0.2.catalina.bottle.tar.gz",
+              "sha256": "e02fc65aff868fb5813fba17fd6e9db2fbe5ea7bbfb181a768a0f1ab9a6b7467"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/tree-2.0.2.x86_64_linux.bottle.tar.gz",
+              "sha256": "e1d7569f6930271d694e739e93eb026aac1e8b386ee3af8eb9aed9be32cb1865"
+            }
+          }
+        }
+      },
+      "ucl": {
+        "version": "1.03",
+        "bottle": {
+          "rebuild": 1,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ucl-1.03.arm64_monterey.bottle.1.tar.gz",
+              "sha256": "4c7f82e2d2c969d71a2dbaca2cc6c0f2577c422a16281a981e3193535263803c"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ucl-1.03.arm64_big_sur.bottle.1.tar.gz",
+              "sha256": "ef63a86669c63e486c3682494a93c9db453a33089a2a71398efb8e5e26cf5e44"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ucl-1.03.monterey.bottle.1.tar.gz",
+              "sha256": "4317885999b8297a1919d5d65a9246efdd7bc1807fd2df4a9268a202fbf3a97c"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ucl-1.03.big_sur.bottle.1.tar.gz",
+              "sha256": "91ce0597dc8e648e4ee0d0caaa30bceb5f569acc90634d88fa5e7859f2ae682a"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ucl-1.03.catalina.bottle.1.tar.gz",
+              "sha256": "116db1f8157bf88831fece730fb3e6fa82420d53c29b032afd63b979df42b386"
+            },
+            "mojave": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ucl-1.03.mojave.bottle.1.tar.gz",
+              "sha256": "89c37d38b41d5107f85c0880eb1599c885dafc2a7150a378c645b3fbe1f0e5ef"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/ucl-1.03.x86_64_linux.bottle.1.tar.gz",
+              "sha256": "f1733761c7ce4452219f15055b4d72ca6e287c9c18691d9aa66c4aae0349d28c"
+            }
+          }
+        }
+      },
+      "unar": {
+        "version": "1.10.7",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/unar-1.10.7.arm64_monterey.bottle.tar.gz",
+              "sha256": "5cedc1ed00cb1f638f6e7d7f026196c19aaf8e2ce9eacb7d9220b98cae2f0649"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/unar-1.10.7.arm64_big_sur.bottle.tar.gz",
+              "sha256": "16091256fd3c0d13a774fc1900b7b21584fb9eee669a65de56906e188fbcc665"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/unar-1.10.7.monterey.bottle.tar.gz",
+              "sha256": "2da5bda2a8ad54072fffd22e81c3b3b85320f8d68b993fdc4282dc6c87cec0e6"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/unar-1.10.7.big_sur.bottle.tar.gz",
+              "sha256": "a92a0fd33d7598591efa5dc01692221053cdc612bb218f46df422af0bd5082c6"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/unar-1.10.7.catalina.bottle.tar.gz",
+              "sha256": "6207848baad1fda03e3bdda9a8cd621ef2d226a02fcf4219fec64c9f418b9a0e"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/unar-1.10.7.mojave.bottle.tar.gz",
+              "sha256": "f09e3c1eb465cec023037048305b493e3ed57696a775eb121076951b8ae63e76"
+            }
+          }
+        }
+      },
+      "vapoursynth-imwri": {
+        "version": "1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-imwri-1.arm64_monterey.bottle.tar.gz",
+              "sha256": "af2367f974a7cf578dc1570fdf03722baf54b9846d6c35748c805a5c4903843e"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-imwri-1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "080c31181821b981cf47e913b5b91d99e36ed648c5c0bfc8a8ea7200e297f9ab"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-imwri-1.monterey.bottle.tar.gz",
+              "sha256": "03f768ac9fc321dc96d4fda5165d967dbffd55067e7fb82ec5094de65b067620"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-imwri-1.big_sur.bottle.tar.gz",
+              "sha256": "ef9f021e687b36a382c2f589b60c5c21fec61a25b687d555162be857a607b04e"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-imwri-1.catalina.bottle.tar.gz",
+              "sha256": "6041a275aaf72e45651a334d8cbaef9f9ecccc054b2fd32d9454c1aa82ee1fc7"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-imwri-1.mojave.bottle.tar.gz",
+              "sha256": "0ece8962763da6ebc44b85e22907ae218841be3b311d6062047ce59803c6ec3d"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-imwri-1.x86_64_linux.bottle.tar.gz",
+              "sha256": "dd97dc5792768f831374845c07b347de5cd09d1f1f68a72f72c01fb4872deab1"
+            }
+          }
+        }
+      },
+      "vapoursynth-ocr": {
+        "version": "1_1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-ocr-1_1.arm64_monterey.bottle.tar.gz",
+              "sha256": "55ae2c3a8f8bf67d64d2346254daf47e219cfbc6d9614b116501f5d55133ef33"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-ocr-1_1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "03340882c45e954d15c563d411e2ceb2404bc0ea7fed0eb05104a9ce6630236b"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-ocr-1_1.monterey.bottle.tar.gz",
+              "sha256": "e40bc92d88cc7ff8aa3954bf35d53c79a4ec30d1c4ee0ab2daecebde31a83c2e"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-ocr-1_1.big_sur.bottle.tar.gz",
+              "sha256": "8e66e52b80e58b395be03091c5db3fa3425a04ef75be84ec7ef9cd076424fd95"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-ocr-1_1.catalina.bottle.tar.gz",
+              "sha256": "aba262d2cf52d59e3e434ccba8172bd356a27f593057fabc5d2bd576ff7552e1"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-ocr-1_1.x86_64_linux.bottle.tar.gz",
+              "sha256": "def0dfdcb4b66e5dca864366768dc2992acf72bad181de0a7feaee789ba0544d"
+            }
+          }
+        }
+      },
+      "vapoursynth-sub": {
+        "version": "2_1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-sub-2_1.arm64_monterey.bottle.tar.gz",
+              "sha256": "1d566a35094458188b0ef7503f4313d564b3d39d14698ba3d6ad33e812395934"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-sub-2_1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "5be9a2f65b43236d03eebbc934971f1146cb5d442a9ef925b07c4087112a7d92"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-sub-2_1.monterey.bottle.tar.gz",
+              "sha256": "1343035d03a7207ed4fb65dcffcc1a53e742b855709993acc71b6f1b1eb3c6a0"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-sub-2_1.big_sur.bottle.tar.gz",
+              "sha256": "5ec53b9369f41673d1787985213f4984d4c6ff29b9f311882834193b4e80af69"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-sub-2_1.catalina.bottle.tar.gz",
+              "sha256": "d54510ddb431b6a0f959e402d5c3b02476e34b4d14a4a03ac94a40187c3f260b"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/vapoursynth-sub-2_1.x86_64_linux.bottle.tar.gz",
+              "sha256": "0b19e13e669af79fef8f897b445e4d72da584e739974bc5d7f759aa2bf8e8e97"
+            }
+          }
+        }
+      },
+      "watchman": {
+        "version": "2022.03.14.00",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/watchman-2022.03.14.00.arm64_monterey.bottle.tar.gz",
+              "sha256": "dc8e7fc4d68dd9f8a98dd319c29b9aadc2100809ba85beefd681171f4a348996"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/watchman-2022.03.14.00.arm64_big_sur.bottle.tar.gz",
+              "sha256": "955df2af021db82f5655e6c63eab1394283aa04d17ce3b4d8feb59036e72bffa"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/watchman-2022.03.14.00.monterey.bottle.tar.gz",
+              "sha256": "d149080fd53736e3e6b9d3630c8393ad4b8c85aedadcb993af19cb506eb06b4c"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/watchman-2022.03.14.00.big_sur.bottle.tar.gz",
+              "sha256": "1db0f7c80738e11a9e6291341fd493aa85327dada1863089238a51b1afeabaee"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/watchman-2022.03.14.00.catalina.bottle.tar.gz",
+              "sha256": "01ffb5d763749bea790eb0a24d25e7ad6e61cf244703c10cc1582a10746bcf61"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/watchman-2022.03.14.00.x86_64_linux.bottle.tar.gz",
+              "sha256": "a08d56f0da824c14e8149eb91710e74800bc90074b0afb4d17dd91c10dc6243c"
+            }
+          }
+        }
+      },
+      "wget": {
+        "version": "1.21.3",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/wget-1.21.3.arm64_monterey.bottle.tar.gz",
+              "sha256": "fc83eec77acee50d2d7ce3bb0cca08d80acccc148e909921de42e57dd5fc7f3d"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/wget-1.21.3.arm64_big_sur.bottle.tar.gz",
+              "sha256": "a0c491ae7de2b722320efa94704567e36f3a0bd04bd946b1431ecbd1bcbfb899"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/wget-1.21.3.monterey.bottle.tar.gz",
+              "sha256": "aa706c58ae7e97abf91be56e785335aff058c431f9973dffac06aacbea558497"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/wget-1.21.3.big_sur.bottle.tar.gz",
+              "sha256": "b90e0d7a4319ccdb18ee0c2ed097e9cddeeceaaf70dc0a785d96b4ba69dbeb54"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/wget-1.21.3.catalina.bottle.tar.gz",
+              "sha256": "2aadef5aae81ecdd7e28bc9a776adcf0eaa393edae904e0c69740a442b7a3e69"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/wget-1.21.3.x86_64_linux.bottle.tar.gz",
+              "sha256": "b6f20b1f4da03b9ee6a42f9305ee015eae7f80afea198e405c0b775eb2333de1"
+            }
+          }
+        }
+      },
+      "zlib": {
+        "version": "1.2.11",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/zlib-1.2.11.arm64_monterey.bottle.tar.gz",
+              "sha256": "753d7a7fa1fa07a857e6ff7858bcabb470b7b3510ceebc87289eda3c13b676e8"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/zlib-1.2.11.arm64_big_sur.bottle.tar.gz",
+              "sha256": "b480ed6baf10880f61b5a3097fb0921d44466857e1dde53a09e2ae4e378b1a8c"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/zlib-1.2.11.monterey.bottle.tar.gz",
+              "sha256": "7b3c7d2e0992f824cdc9948bc5da8d9e9f739614c13e0c0f94dfcb90fea3f912"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/zlib-1.2.11.big_sur.bottle.tar.gz",
+              "sha256": "b95aa332dfc7c6dfb5e86fd30068f78e2cf87ee0232e5bef0adddae8215f543d"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/zlib-1.2.11.catalina.bottle.tar.gz",
+              "sha256": "8ec66cf6faa310712767efc3022fdd16568a79234439f64bf579acb628f893bc"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/zlib-1.2.11.mojave.bottle.tar.gz",
+              "sha256": "245a43a59c57f83848e7382974bb80a46eac1d53bcaefb1bdebd1f85107d4169"
+            },
+            "high_sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/zlib-1.2.11.high_sierra.bottle.tar.gz",
+              "sha256": "30548658b43cf66979f2756680fbb32d3c19c967e478ceea22d07f536b22bbce"
+            },
+            "sierra": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/zlib-1.2.11.sierra.bottle.tar.gz",
+              "sha256": "f822b4dbab4a15b889316b89248c7b4d15d6af9dc460bf209b9425b0accb7fa3"
+            },
+            "el_capitan": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/zlib-1.2.11.el_capitan.bottle.tar.gz",
+              "sha256": "3f912f6f1ce6c586128ebde29756c883b89409e652ca7aa9a29a773c2d4d0915"
+            },
+            "yosemite": {
+              "cellar": ":any",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/zlib-1.2.11.yosemite.bottle.tar.gz",
+              "sha256": "5b969eb38b90a3e31869586df9d62e59d359212b16c6a270aee690dd67caa491"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/zlib-1.2.11.x86_64_linux.bottle.tar.gz",
+              "sha256": "db54bf590275839d3f4cdf31d9527aa3a4c19a8984b5605cedc3f7c22a65eea4"
+            }
+          }
+        }
+      },
+      "zplug": {
+        "version": "2.4.2",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://mirrors.ustc.edu.cn/homebrew-bottles/bottles/zplug-2.4.2.all.bottle.tar.gz",
+              "sha256": "88f086071ba188267046f170817aee4ad59fcdd9d9b7ad183b639306c5b8ef29"
+            }
+          }
+        }
+      },
+      "eddieantonio/eddieantonio/imgcat": {
+        "version": "2.5.1",
+        "bottle": false
+      },
+      "mongodb/brew/mongodb-community": {
+        "version": "5.0.6",
+        "bottle": false
+      }
+    },
+    "cask": {
+      "android-platform-tools": {
+        "version": "33.0.0",
+        "options": {
+          "full_name": "android-platform-tools"
+        }
+      },
+      "iterm2": {
+        "version": "3.4.15",
+        "options": {
+          "full_name": "iterm2"
+        }
+      },
+      "reactotron": {
+        "version": "2.17.1",
+        "options": {
+          "full_name": "reactotron"
+        }
+      },
+      "squirrel": {
+        "version": "0.15.2",
+        "options": {
+          "full_name": "squirrel"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "monterey": {
+        "HOMEBREW_VERSION": "3.4.2",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "2bb93b970fc848684d530a8944751b5e93fdb7ed",
+        "CLT": "13.3.0.0.1.1645755326",
+        "Xcode": "13.3",
+        "macOS": "12.3"
+      }
+    }
+  }
+}
