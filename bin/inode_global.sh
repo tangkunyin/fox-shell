@@ -3,6 +3,7 @@
 ## Base NPM Tools
 npm install -g pnpm
 npm install -g yarn
+npm install -g node-gyp
 
 # Usefull Dev tools
 pnpm --global add cloc
