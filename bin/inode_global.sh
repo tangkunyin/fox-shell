@@ -33,9 +33,9 @@ pnpm --global add @tarojs/cli
 pnpm --global add @warriorjs/cli
 
 pnpm --global add create-react-app
-pnpm --global add create-react-native-app
 pnpm --global add react-devtools
-pnpm --global add react-native-cli
+pnpm --global add @react-native-community/cli
+pnpm --global add create-react-native-app
 
 # lint && babel plugins
 pnpm --global add babel-eslint
