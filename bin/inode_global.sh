@@ -36,6 +36,7 @@ pnpm --global add create-react-app
 pnpm --global add react-devtools
 pnpm --global add @react-native-community/cli
 pnpm --global add create-react-native-app
+pnpm --global add create-react-native-module
 
 # lint && babel plugins
 pnpm --global add babel-eslint
