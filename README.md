@@ -42,6 +42,13 @@ sudo host.sh git
 
 ## Others
 
+### homebrew
+
+```
+brew bundle dump
+brew bundle --file="./Brewfile"
+```
+
 All kinds of contributions (enhancements, new features, documentation & code improvements, issues & bugs reporting) are welcome.
 
 
