@@ -6,45 +6,45 @@ npm install -g yarn
 npm install -g node-gyp
 
 # Usefull Dev tools
-pnpm --global add cloc
-pnpm --global add nrm
-pnpm --global add pm2
-pnpm --global add npm-check-updates
-pnpm --global add npm-check # 一样的功能，不过表情比较多
-pnpm --global add serve # 静态资源服务器
-pnpm --global add json-server
-pnpm --global add concurrently
-pnpm --global add verdaccio #npm proxy
-pnpm --global add lerna
-pnpm --global add commitizen
-pnpm --global add gitmoji-cli
-pnpm --global add git-cz
+yarn global add cloc
+yarn global add nrm
+yarn global add pm2
+yarn global add npm-check-updates
+yarn global add npm-check # 一样的功能，不过表情比较多
+yarn global add serve # 静态资源服务器
+yarn global add json-server
+yarn global add concurrently
+yarn global add verdaccio #npm proxy
+yarn global add lerna
+yarn global add commitizen
+yarn global add gitmoji-cli
+yarn global add git-cz
 
 # Lang & Framework-CLIs
-pnpm --global add typescript
-pnpm --global add hexo
-pnpm --global add vuepress
-pnpm --global add vitepress
+yarn global add typescript
+yarn global add hexo
+yarn global add vuepress
+yarn global add vitepress
 
-pnpm --global add @nestjs/cli
+yarn global add @nestjs/cli
 
-pnpm --global add @vue/cli
-pnpm --global add @tarojs/cli
-pnpm --global add @warriorjs/cli
+yarn global add @vue/cli
+yarn global add @tarojs/cli
+yarn global add @warriorjs/cli
 
-pnpm --global add create-react-app
-pnpm --global add react-devtools
-pnpm --global add @react-native-community/cli
-pnpm --global add create-react-native-app
-pnpm --global add create-react-native-module
+yarn global add create-react-app
+yarn global add react-devtools
+yarn global add @react-native-community/cli
+yarn global add create-react-native-app
+yarn global add create-react-native-module
 
 # lint && babel plugins
-pnpm --global add babel-eslint
-pnpm --global add eslint
-pnpm --global add tslint
-pnpm --global add lint-staged
-pnpm --global add eslint-plugin-html
-pnpm --global add eslint-config-standard
-pnpm --global add eslint-plugin-node
-pnpm --global add eslint-plugin-promise
-pnpm --global add eslint-plugin-standard
+yarn global add babel-eslint
+yarn global add eslint
+yarn global add tslint
+yarn global add lint-staged
+yarn global add eslint-plugin-html
+yarn global add eslint-config-standard
+yarn global add eslint-plugin-node
+yarn global add eslint-plugin-promise
+yarn global add eslint-plugin-standard
