@@ -1,5 +1,6 @@
 #!/bin/bash
 
+npm config set registry https://registry.npmmirror.com/
 corepack enable
 
 # ------- need to be installed globally ------
@@ -53,13 +54,14 @@ function yarnGlobalAdd() {
 }
 
 
-## Base NPM Tools
-npm install -g yarn
-npm install -g pnpm
-npm install -g node-gyp
 
+## Base NPM Tools
+npm install -g yarn --force
+npm install -g node-gyp --force
 
 ## use yarn2
 #yarn set version stable
+
+yarn config set registry https://registry.npmmirror.com/
 
 yarnGlobalAdd
