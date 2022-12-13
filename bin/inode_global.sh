@@ -19,6 +19,7 @@ globalDeps=(
     commitizen
     gitmoji-cli
     git-cz
+    tldr
     # Lang & Framework-CLIs
     typescript
     hexo
