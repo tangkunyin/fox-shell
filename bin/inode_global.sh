@@ -28,7 +28,6 @@ globalDeps=(
     @nestjs/cli
     @vue/cli
     @tarojs/cli
-    @warriorjs/cli
     create-react-app
     react-devtools
     @react-native-community/cli
