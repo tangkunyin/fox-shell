@@ -21,7 +21,6 @@ globalDeps=(
     # Lang & Framework-CLIs
     typescript
     hexo
-    vuepress
     vitepress
     @nestjs/cli
     @vue/cli
