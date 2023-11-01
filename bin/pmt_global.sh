@@ -42,13 +42,11 @@ globalDeps=(
     # Lang & Framework-CLIs
     typescript
     hexo
-    vuepress@next
     vitepress
     @nestjs/cli
     @vue/cli
     @tarojs/cli
     create-react-app
-    react-devtools
     @react-native-community/cli
     create-react-native-app
     create-react-native-module
