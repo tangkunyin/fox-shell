@@ -13,7 +13,7 @@
 # vim ~/.bash_profile
 # export NI_CONFIG_FILE="$HOME/.nirc"
 
-sudo npm i -g npm@9.8.1 # npm10 not supported the node version that lower than v18.17.0
+#sudo npm i -g npm@9.8.1 # npm10 not supported the node version that lower than v18.17.0
 sudo npm i -g @antfu/ni
 
 corepack enable
