@@ -30,36 +30,25 @@ globalDeps=(
     nrm
     pm2
     npm-check-updates
-    serve
     json-server
     concurrently
-    verdaccio
     lerna
     commitizen
     gitmoji-cli
     git-cz
     tldr
+
     # Lang & Framework-CLIs
     typescript
-    hexo-cli
-    vitepress
-    @nestjs/cli
     @vue/cli
-    @tarojs/cli
-    create-react-app
     @react-native-community/cli
+    create-react-app
     create-react-native-app
     create-react-native-module
-    # lint && babel plugins
-    babel-eslint
-    eslint
-    tslint
-    lint-staged
-    eslint-plugin-html
-    eslint-config-standard
-    eslint-plugin-node
-    eslint-plugin-promise
-    eslint-plugin-standard
+
+    # build websites
+    hexo-cli
+    vitepress
 )
 
 
@@ -91,5 +80,6 @@ function nunGlobalDeps() {
 }
 
 #yarnClassicGlobalAdd
+#nunGlobalDeps
 niGlobalInstall
 
