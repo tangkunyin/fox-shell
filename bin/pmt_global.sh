@@ -48,7 +48,7 @@ globalDeps=(
 
     # build websites
     hexo-cli
-    vitepress
+    vuepress@1.9.10
 )
 
 
