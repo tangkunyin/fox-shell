@@ -40,15 +40,16 @@ globalDeps=(
 
     # Lang & Framework-CLIs
     typescript
-    @vue/cli
-    @react-native-community/cli
-    create-react-app
-    create-react-native-app
-    create-react-native-module
+    
+    #@vue/cli
+    #@react-native-community/cli
+    #create-react-app
+    #create-react-native-app
+    #create-react-native-module
 
-    # build websites
+    # static website
     hexo-cli
-    vuepress@1.9.10
+    #vuepress@1.9.10
 )
 
 
