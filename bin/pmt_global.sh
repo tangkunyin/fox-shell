@@ -18,38 +18,44 @@ sudo npm i -g @antfu/ni
 
 corepack enable
 corepack enable npm
-corepack prepare yarn@1.22.19  # for old-projects use classisc version
-corepack prepare pnpm@latest --activate
+corepack prepare yarn@1.22.22 # for old-projects use classisc version
+corepack prepare pnpm@8.15.6 --activate
 
 pnpm setup
 
 # ------- need to be installed globally ------
 globalDeps=(
+    # Lang 
+    typescript 
+
+    ## frontend
+    create-react-app
+    create-next-app
+    create-remix
+
+    ## backend
+    pm2
+    nodemon
+    think-cli
+    
     # Dev tools
     cloc
-    nrm
-    pm2
-    npm-check-updates
-    json-server
-    concurrently
-    lerna
     commitizen
+    concurrently
     gitmoji-cli
     git-cz
+    nrm
+    npm-check-updates
     tldr
 
-    # Lang & Framework-CLIs
-    typescript
-    
-    #@vue/cli
-    #@react-native-community/cli
-    #create-react-app
-    #create-react-native-app
-    #create-react-native-module
+    # Interests
+    emoj
+    deepl-translator-cli
 
     # static website
     hexo-cli
-    #vuepress@1.9.10
+    create-docusaurus
+    create-gatsby
 )
 
 
@@ -82,5 +88,6 @@ function nunGlobalDeps() {
 
 #yarnClassicGlobalAdd
 #nunGlobalDeps
+
 niGlobalInstall
 
