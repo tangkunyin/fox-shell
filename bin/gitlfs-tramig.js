@@ -103,5 +103,8 @@ const migrateAll = () => {
         console.log(`exec success: ${stdout}`);
     });
 }
+
+// 以下命令不能同时执行，先这样吧...
+
 trackAll();
-migrateAll();
+//migrateAll();
