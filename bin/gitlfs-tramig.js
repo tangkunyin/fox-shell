@@ -45,6 +45,7 @@ const exts = [
     "*.avi",
     "*.rm",
     "*.rmvb",
+    "*.wv",
     "*.mkv",
     "*.wmv",
     "*.wav",
@@ -69,10 +70,10 @@ const exts = [
 ]
 
 const attrs = exts.join(',');
+console.log('attrs are: ', attrs);
 
 const trackAll = () => {
     const cmd = `git lfs track "${attrs}"`;
-    // console.log(cmd)
     
     exec(cmd, (error, stdout, stderr) => {
         if (error) {
@@ -89,7 +90,7 @@ const trackAll = () => {
 
 const migrateAll = () => {
     const cmd = `git lfs migrate import --everything --include="${attrs}"`;
-    // console.log(cmd)
+    // const cmd1 = `git lfs migrate import --above=100Kb`; // only above 100kb file can be migrated
     
     exec(cmd, (error, stdout, stderr) => {
         if (error) {
@@ -104,7 +105,26 @@ const migrateAll = () => {
     });
 }
 
+// 撤销 LFS 迁移
+// 处于暂存区的时候，直接执行：git lfs prune
+const revertMigration = () => {
+    const cmd = `git lfs migrate export --everything --include="*"`;
+    
+    exec(cmd, (error, stdout, stderr) => {
+        if (error) {
+            console.error(`exec error: ${error}`);
+            return;
+        }
+        if (stderr) {
+            console.error(`exec error: ${stderr}`);
+            return;
+        }
+        console.log(`exec success: ${stdout}`);
+    });
+}
+
+
 // 以下命令不能同时执行，先这样吧...
 
-trackAll();
-//migrateAll();
+// trackAll();
+migrateAll();
