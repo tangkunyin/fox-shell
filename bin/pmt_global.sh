@@ -13,60 +13,48 @@
 # vim ~/.bash_profile
 # export NI_CONFIG_FILE="$HOME/.nirc"
 
-#sudo npm i -g npm@9.8.1 # npm10 not supported the node version that lower than v18.17.0
-sudo npm i -g @antfu/ni
-
-corepack enable
-corepack enable npm
-corepack prepare yarn@1.22.22 # for old-projects use classisc version
-corepack prepare pnpm@8.15.6 --activate
+sudo corepack enable
+sudo corepack prepare yarn@1.22.22 # for old-projects use classisc version
+sudo corepack prepare pnpm@9.1.0 --activate
 
 pnpm setup
+pnpm add -g @antfu/ni
 
 # ------- need to be installed globally ------
 globalDeps=(
     # Lang 
     typescript 
 
-    ## frontend
-    create-react-app
-    create-next-app
-    create-remix
-
-    ## backend
-    pm2
-    nodemon
-    think-cli
-    
     # Dev tools
     cloc
     commitizen
-    concurrently
     gitmoji-cli
     git-cz
     nrm
-    npm-check-updates
-    tldr
+    taze
 
-    # Interests
-    emoj
-    deepl-translator-cli
+    ## frontend frameworks
+    create-react-app
+    create-next-app
+    create-remix
+    react-native
+    ### Build smaller, faster, and more secure desktop applications with a web frontend.
+    #tauri-app@latest
 
-    # static website
+    ## backend services
+    pm2
+    @nestjs/cli
+    
+    # purpular websites
     hexo-cli
     create-docusaurus
     create-gatsby
+    
+    # Interests
+    emoj
+    deepl-translator-cli
 )
 
-
-# use yarn classic (v1.x) global scripts
-function yarnClassicGlobalInstall() {
-    echo "======= 本次通过 yarn global add 共计需要安装依赖 ${#globalDeps[*]} 个，请耐心等待 ======="
-    for dependency in ${globalDeps[*]} 
-    do
-        sudo yarn global add $dependency --prefix /usr/local
-    done
-}
 
 # use ni that all-in-one global install
 function niGlobalInstall() {
@@ -86,8 +74,5 @@ function nunGlobalDeps() {
     done
 }
 
-#yarnClassicGlobalAdd
 #nunGlobalDeps
-
 niGlobalInstall
-
