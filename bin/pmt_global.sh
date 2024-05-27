@@ -14,8 +14,8 @@
 # export NI_CONFIG_FILE="$HOME/.nirc"
 
 sudo corepack enable
-sudo corepack prepare yarn@1.22.22 # for old-projects use classisc version
-sudo corepack prepare pnpm@9.1.2 --activate
+sudo corepack prepare yarn@latest
+sudo corepack prepare pnpm@latest --activate
 
 pnpm setup
 pnpm add -g @antfu/ni
