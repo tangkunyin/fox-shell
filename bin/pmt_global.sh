@@ -15,7 +15,7 @@
 
 sudo corepack enable
 sudo corepack prepare yarn@1.22.22 # for old-projects use classisc version
-sudo corepack prepare pnpm@9.1.0 --activate
+sudo corepack prepare pnpm@9.1.2 --activate
 
 pnpm setup
 pnpm add -g @antfu/ni
@@ -38,6 +38,8 @@ globalDeps=(
     create-next-app
     create-remix
     react-native
+    expo-cli
+    create-expo-module
     ### Build smaller, faster, and more secure desktop applications with a web frontend.
     #tauri-app@latest
 
@@ -52,7 +54,6 @@ globalDeps=(
     
     # Interests
     emoj
-    deepl-translator-cli
 )
 
 
