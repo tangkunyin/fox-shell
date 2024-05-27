@@ -34,12 +34,12 @@ globalDeps=(
     taze
 
     ## frontend frameworks
-    create-react-app
-    create-next-app
-    create-remix
-    react-native
+    #create-react-app
+    #create-next-app
+    #create-remix
+    #create-expo-module
+    #react-native
     expo-cli
-    create-expo-module
     ### Build smaller, faster, and more secure desktop applications with a web frontend.
     #tauri-app@latest
 
@@ -49,8 +49,8 @@ globalDeps=(
     
     # purpular websites
     hexo-cli
-    create-docusaurus
-    create-gatsby
+    #create-docusaurus
+    #create-gatsby
     
     # Interests
     emoj
