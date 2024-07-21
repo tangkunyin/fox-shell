@@ -34,12 +34,12 @@ globalDeps=(
     taze
 
     ## frontend frameworks
+
     #create-react-app
     #create-next-app
     #create-remix
     #create-expo-module
-    #react-native
-    expo-cli
+    
     ### Build smaller, faster, and more secure desktop applications with a web frontend.
     #tauri-app@latest
 

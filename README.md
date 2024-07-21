@@ -1,54 +1,67 @@
-## What's open-clt
+## What's tombro-shell
 
-`open-clt` is a shell collection box for both macOS and Linux development.
+> tombro == thomas brother? perhaps it can be interpreted like this! 🤣
 
-It contains quick `ssh login`,`manual ipa packaging` for iOS,`docker` quick start,`npm upgrade`,node uninstall,`cocoapods quick install`,`react native offline packaging`,`google host tool` and so on.
+**tombro-shell** is an out of box shell-script collection for both macOS and Linux development, those scripts that I find useful and important in development, will be shared with all of you from time to time.
 
-I will share my usefull and important shell tools on this repository all the time
+⚠️ Note: These scripts were written in many different ways and languages, alse doesn't necessarily apply to everyone, if you mind this, don't use them!
 
 ## How to use
 
-1.download and put them on your home directory like this:
+1.Clone and put them in your home directory like this:
 
 ```
 cd ~
-git clone https://github.com/tangkunyin/open-clt.git 
+
+git clone https://github.com/tangkunyin/tombro-shell.git
 ```
 
-2.config environment path in your operating system
+2.Config env-variables path under your system
 
-```
-vi /etc/profile
+```bash
+vim ~/.bash_profile
 
-# paste this in your system profile or user profile 
-PATH=$PATH:~/open-clt/bin
+# paste this to your profile 
+PATH=$PATH:~/tombro-shell/bin
+
 export PATH
-
 ```
 
-3.make it effect
+3.Make it effect
 
 ```
-source /etc/profile
+source ~/.bash_profile
 ```
 
-4.try a host update test
+4.Try a git test
 
 ```
-# notice: before this command,please backup your current hosts file first. 
-sudo host.sh git
+gitc.sh
 ```
 
+## For development
 
-## Others
+> List some of the relatively useful
+
+- `pmt_global.sh`: for fe-developer all in one intallation
+- `drc.sh`: for docker use
+
+
+## For development tools
 
 ### homebrew
+
+Backup your brew installed packages in a standalone file, when you move to another dev-env, you can recover it directly and fast
 
 ```
 brew bundle dump
 brew bundle --file="./Brewfile"
 ```
 
-All kinds of contributions (enhancements, new features, documentation & code improvements, issues & bugs reporting) are welcome.
+### vscode
+
+Clear unused vscode plugins which were waste the storage in your computer.
+
+// TODO...
 
 
