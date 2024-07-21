@@ -4,7 +4,7 @@
 
 **tombro-shell** is an out of box shell-script collection for both macOS and Linux development, those scripts that I find useful and important in development, will be shared with all of you from time to time.
 
-⚠️ Note: These scripts were written in many different ways and languages, alse doesn't necessarily apply to everyone, if you mind this, don't use them!
+⚠️ Note: These scripts were written in many different ways and languages, also doesn't necessarily apply to everyone, if you mind this, don't use them!
 
 ## How to use
 
