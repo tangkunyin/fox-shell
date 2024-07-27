@@ -15,7 +15,7 @@
 
 sudo corepack enable
 sudo corepack prepare yarn@latest
-sudo corepack prepare pnpm@latest --activate
+sudo corepack prepare pnpm@9.4.0 --activate
 
 pnpm setup
 pnpm add -g @antfu/ni
@@ -34,23 +34,19 @@ globalDeps=(
     taze
 
     ## frontend frameworks
-
-    #create-react-app
     #create-next-app
-    #create-remix
-    #create-expo-module
+    create-remix
     
     ### Build smaller, faster, and more secure desktop applications with a web frontend.
     #tauri-app@latest
 
     ## backend services
     pm2
-    @nestjs/cli
+    #@nestjs/cli
     
     # purpular websites
     hexo-cli
-    #create-docusaurus
-    #create-gatsby
+    create-gatsby
     
     # Interests
     emoj
