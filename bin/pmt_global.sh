@@ -34,8 +34,7 @@ globalDeps=(
     taze
 
     ## frontend frameworks
-    #create-next-app
-    create-remix
+    create-next-app
     
     ### Build smaller, faster, and more secure desktop applications with a web frontend.
     #tauri-app@latest
