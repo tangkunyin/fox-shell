@@ -32,6 +32,7 @@ globalDeps=(
     git-cz
     nrm
     taze
+    vercel
 
     ## frontend frameworks
     create-next-app
