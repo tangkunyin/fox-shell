@@ -26,6 +26,7 @@ globalDeps=(
     typescript 
 
     # Dev tools
+    zx
     cloc
     commitizen
     gitmoji-cli
