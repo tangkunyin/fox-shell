@@ -22,9 +22,6 @@ pnpm add -g @antfu/ni
 
 # ------- need to be installed globally ------
 globalDeps=(
-    # Lang 
-    #typescript 
-
     # Dev tools
     zx
     cloc
@@ -37,17 +34,16 @@ globalDeps=(
 
     ## frontend frameworks
     create-next-app
-    
-    ### Build smaller, faster, and more secure desktop applications with a web frontend.
-    #tauri-app@latest
+    tauri-app
+
 
     ## backend services
     pm2
-    #@nestjs/cli
     
-    # purpular websites
+
+    # static site generators
     hexo-cli
-    create-gatsby
+    create-docusaurus
     
     # Interests
     emoj
