@@ -23,7 +23,7 @@ pnpm add -g @antfu/ni
 # ------- need to be installed globally ------
 globalDeps=(
     # Lang
-    typescript
+    #typescript
     
     # Dev tools
     zx
