@@ -36,8 +36,7 @@ globalDeps=(
 
     ## frontend frameworks
     create-next-app
-    tauri-app
-
+    create-tauri-app
 
     ## backend services
     pm2
