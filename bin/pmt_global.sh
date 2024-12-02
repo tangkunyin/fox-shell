@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-## ----------------------- Config tips ----------------------- 
+## ----------------------- Config tips -----------------------
 
 # vim ~/.nirc
 
@@ -15,7 +15,7 @@
 
 sudo corepack enable
 sudo corepack prepare yarn@latest
-sudo corepack prepare pnpm@9.12.2 --activate
+sudo corepack prepare pnpm@9.14.4 --activate
 
 pnpm setup
 pnpm add -g @antfu/ni
@@ -24,7 +24,7 @@ pnpm add -g @antfu/ni
 globalDeps=(
     # Lang
     #typescript
-    
+
     # Dev tools
     zx
     cloc
@@ -32,6 +32,7 @@ globalDeps=(
     gitmoji-cli
     git-cz
     nrm
+    npm-check-updates
     taze
     vercel
     ts-node
@@ -43,12 +44,11 @@ globalDeps=(
 
     ## backend services
     pm2
-    
 
     # static site generators
     hexo-cli
     create-docusaurus
-    
+
     # Interests
     emoj
 )
@@ -57,7 +57,7 @@ globalDeps=(
 # use ni that all-in-one global install
 function niGlobalInstall() {
     echo "======= 本次通过 'ni -g' 共计需要安装依赖 ${#globalDeps[*]} 个，请耐心等待 ======="
-    for dependency in ${globalDeps[*]} 
+    for dependency in ${globalDeps[*]}
     do
         ni -g $dependency
     done
@@ -66,7 +66,7 @@ function niGlobalInstall() {
 # use ni that all-in-one global uninstall
 function nunGlobalDeps() {
     echo "======= 本次通过 'nun -g' 共计需要移除依赖 ${#globalDeps[*]} 个，请耐心等待 ======="
-    for dependency in ${globalDeps[*]} 
+    for dependency in ${globalDeps[*]}
     do
         nun -g $dependency
     done
