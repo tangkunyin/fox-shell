@@ -36,7 +36,6 @@ globalDeps=(
     taze
     vercel
     ts-node
-    prisma
 
     ## frontend frameworks
     create-next-app
