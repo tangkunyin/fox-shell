@@ -15,7 +15,7 @@
 
 sudo corepack enable
 sudo corepack prepare yarn@latest
-sudo corepack prepare pnpm@10.10.0 --activate
+sudo corepack prepare pnpm@10.30.2 --activate
 
 pnpm setup
 pnpm add -g @antfu/ni
@@ -36,6 +36,7 @@ globalDeps=(
     taze
     vercel
     ts-node
+    @anthropic-ai/claude-code
 
     ## frontend frameworks
     create-next-app
