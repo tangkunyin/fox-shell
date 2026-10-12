@@ -15,7 +15,7 @@
 
 sudo corepack enable
 sudo corepack prepare yarn@latest
-sudo corepack prepare pnpm@10.30.2 --activate
+sudo corepack prepare pnpm@10.34.6 --activate
 
 pnpm setup
 pnpm add -g @antfu/ni
