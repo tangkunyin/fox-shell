@@ -15,7 +15,7 @@
 
 sudo corepack enable
 sudo corepack prepare yarn@latest
-sudo corepack prepare pnpm@10.34.6 --activate
+sudo corepack prepare pnpm@11.28.8 --activate
 
 pnpm setup
 pnpm add -g @antfu/ni
@@ -34,9 +34,6 @@ globalDeps=(
     nrm
     npm-check-updates
     taze
-    vercel
-    ts-node
-    @anthropic-ai/claude-code
 
     ## frontend frameworks
     create-next-app
@@ -50,7 +47,6 @@ globalDeps=(
     create-docusaurus
 
     # Interests
-    emoj
 )
 
 
